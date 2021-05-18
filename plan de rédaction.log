@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  21 MAR 2021 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  18 MAY 2021 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,22 +486,32 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Info: Redefining \degres on input line 8.
 LaTeX Info: Redefining \dots on input line 8.
 LaTeX Info: Redefining \up on input line 8.
- [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./plan de rédaction.aux)
- ) 
+! Undefined control sequence.
+l.22 			\itemp
+               Deep Learning
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./plan de rédaction.aux) ) 
 Here is how much of TeX's memory you used:
  2848 strings out of 494276
  34246 string characters out of 6162348
- 94827 words of memory out of 5000000
+ 95827 words of memory out of 5000000
  6223 multiletter control sequences out of 15000+600000
  6248 words of font info for 18 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  30i,4n,30p,237b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/sba/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk
-> </home/sba/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk>
-
-Output written on "plan de rédaction.pdf" (1 page, 19244 bytes).
+ </home/sba/.texlive2017/texmf-var/fonts/pk/ljfour/
+jknappen/ec/ecrm1200.600pk> </home/sba/.texlive2017/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecbx2488.600pk>
+Output written on "plan de rédaction.pdf" (1 page, 19239 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream
