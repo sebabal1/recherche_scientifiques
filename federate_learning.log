@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  18 MAY 2021 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  23 MAY 2021 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,11 +781,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 61.
+less on input line 42.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 63.
+less on input line 44.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 45.
 
 [1] (./federate_learning.toc)
 \tf@toc=\write3
@@ -796,40 +800,36 @@ less on input line 63.
 ]
 Chapitre 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-<./images/machine_learing_1.png, id=15, 600.2425pt x 404.51125pt>
-File: ./images/machine_learing_1.png Graphic file (type png)
-<use ./images/machine_learing_1.png>
-Package pdftex.def Info: ./images/machine_learing_1.png  used on input line 86.
-
-(pdftex.def)             Requested size: 240.09274pt x 161.80162pt.
-[3
+[1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+<./images/machine_learing_1.png, id=19, 600.2425pt x 404.51125pt>
+File: ./images/machine_learing_1.png Graphic file (type png)
+<use ./images/machine_learing_1.png>
+Package pdftex.def Info: ./images/machine_learing_1.png  used on input line 85.
+
+(pdftex.def)             Requested size: 240.09274pt x 161.80162pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
@@ -839,19 +839,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./images/machine_learing_1.png>]
+[2 <./images/machine_learing_1.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
-<./images/deep_learning_schema.png, id=28, 723.70375pt x 492.84125pt>
+[3]
+Chapitre 2.
+[4
+
+]
+<./images/deep_learning_schema.png, id=33, 723.70375pt x 492.84125pt>
 File: ./images/deep_learning_schema.png Graphic file (type png)
 <use ./images/deep_learning_schema.png>
 Package pdftex.def Info: ./images/deep_learning_schema.png  used on input line 
-127.
+131.
 (pdftex.def)             Requested size: 289.47636pt x 197.133pt.
 
 
@@ -860,67 +864,67 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./images/deep_learning_schema.png>]
-Chapitre 2.
-[7
+[5 <./images/deep_learning_schema.png>]
+Chapitre 3.
+[6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 []\OT1/cmr/m/n/12 Pour la par-tie sur le Ma-chine Lear-ning
  []
 
-[8
+[7
 
 ]
 Annexe A.
-<pdf/federate_learning_en.pdf, id=42, 614.295pt x 794.97pt>
+<pdf/federate_learning_en.pdf, id=46, 614.295pt x 794.97pt>
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf>
-Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 169.
+Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 186.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf>
-Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 169.
+Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 186.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<pdf/federate_learning_en.pdf, id=45, page=1, 614.295pt x 794.97pt>
+<pdf/federate_learning_en.pdf, id=49, page=1, 614.295pt x 794.97pt>
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 169.
+e 186.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 169.
+e 186.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[9
+[8
 
 ]
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 169.
+e 186.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 169.
+e 186.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 169.
+e 186.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [10 <./pdf/federate_learning_en.pdf>] (./federate_learning.aux)
+ [9 <./pdf/federate_learning_en.pdf>] (./federate_learning.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6962 strings out of 494276
- 99540 string characters out of 6162348
- 174424 words of memory out of 5000000
- 10171 multiletter control sequences out of 15000+600000
+ 6960 strings out of 494276
+ 99517 string characters out of 6162348
+ 174430 words of memory out of 5000000
+ 10169 multiletter control sequences out of 15000+600000
  14015 words of font info for 53 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  42i,18n,43p,566b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -929,16 +933,17 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
-b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on federate_learning.pdf (11 pages, 303778 bytes).
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on federate_learning.pdf (12 pages, 315374 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

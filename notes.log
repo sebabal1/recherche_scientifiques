@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  7 FEB 2021 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  23 MAY 2021 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -478,22 +478,31 @@ LaTeX Info: Redefining \degres on input line 8.
 LaTeX Info: Redefining \dots on input line 8.
 LaTeX Info: Redefining \up on input line 8.
 
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--45
+
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./notes.aux) ) 
 Here is how much of TeX's memory you used:
  2841 strings out of 494276
  33924 string characters out of 6162348
- 100828 words of memory out of 5000000
+ 101828 words of memory out of 5000000
  6221 multiletter control sequences out of 15000+600000
  4702 words of font info for 16 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  28i,4n,30p,222b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sba
 /.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk>
-Output written on notes.pdf (1 page, 12924 bytes).
+Output written on notes.pdf (1 page, 16424 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  8 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
