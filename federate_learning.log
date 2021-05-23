@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  23 MAY 2021 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  23 MAY 2021 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,6 +528,8 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \py=\skip55
 \pyy=\skip56
 \pxx=\skip57
+\c@AlphaCnt=\count115
+\c@AlphaDecCnt=\count116
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
@@ -544,7 +546,7 @@ s
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count115
+\c@float@type=\count117
 \float@exts=\toks24
 \float@box=\box30
 \@float@everytoks=\toks25
@@ -557,24 +559,24 @@ Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count116
-\c@@ppsavesec=\count117
-\c@@ppsaveapp=\count118
+\c@@pps=\count118
+\c@@ppsavesec=\count119
+\c@@ppsaveapp=\count120
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count119
-\calc@Bcount=\count120
+\calc@Acount=\count121
+\calc@Bcount=\count122
 \calc@Adimen=\dimen132
 \calc@Bdimen=\dimen133
 \calc@Askip=\skip67
 \calc@Bskip=\skip68
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count121
+\calc@Ccount=\count123
 \calc@Cskip=\skip69
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -618,7 +620,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box32
 \AM@global@opts=\toks26
 \AM@toc@title=\toks27
-\c@AM@survey=\count122
+\c@AM@survey=\count124
 \AM@templatesizebox=\box33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
@@ -629,6 +631,18 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip70
 \backup@length=\skip71
 )
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box34
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen138
+\ttl@minus=\dimen139
+\ttl@toksa=\toks29
+\titlewidth=\dimen140
+\titlewidthlast=\dimen141
+\titlewidthfirst=\dimen142
+)
 (./federate_learning.aux
 
 LaTeX Warning: Label `fig1' multiply defined.
@@ -636,31 +650,31 @@ LaTeX Warning: Label `fig1' multiply defined.
 )
 \openout1 = `federate_learning.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
-\scratchdimen=\dimen138
-\scratchbox=\box34
-\nofMPsegments=\count124
-\nofMParguments=\count125
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count126
-\MPscratchDim=\dimen139
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count125
+\scratchdimen=\dimen143
+\scratchbox=\box35
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen144
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -716,25 +730,25 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip72
-\RaggedLeftLeftskip=\skip73
-\RaggedRightLeftskip=\skip74
-\CenteringRightskip=\skip75
-\RaggedLeftRightskip=\skip76
-\RaggedRightRightskip=\skip77
-\CenteringParfillskip=\skip78
-\RaggedLeftParfillskip=\skip79
-\RaggedRightParfillskip=\skip80
-\JustifyingParfillskip=\skip81
-\CenteringParindent=\skip82
-\RaggedLeftParindent=\skip83
-\RaggedRightParindent=\skip84
-\JustifyingParindent=\skip85
+\CenteringLeftskip=\skip74
+\RaggedLeftLeftskip=\skip75
+\RaggedRightLeftskip=\skip76
+\CenteringRightskip=\skip77
+\RaggedLeftRightskip=\skip78
+\RaggedRightRightskip=\skip79
+\CenteringParfillskip=\skip80
+\RaggedLeftParfillskip=\skip81
+\RaggedRightParfillskip=\skip82
+\JustifyingParfillskip=\skip83
+\CenteringParindent=\skip84
+\RaggedLeftParindent=\skip85
+\RaggedRightParindent=\skip86
+\JustifyingParindent=\skip87
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \degres on input line 32.
+LaTeX Info: Redefining \degres on input line 35.
 
 
 Package french.ldf Warning: Figures' and tables' captions might look like
@@ -746,16 +760,16 @@ Package french.ldf Warning: Figures' and tables' captions might look like
 (french.ldf)                you can still add AFTER babel/french
 (french.ldf)                \usepackage[labelsep=period]{caption} or
 (french.ldf)                \usepackage[labelsep=endash]{caption} or
-(french.ldf)                ... live with it; reported on input line 32.
+(french.ldf)                ... live with it; reported on input line 35.
 
-LaTeX Info: Redefining \dots on input line 32.
-LaTeX Info: Redefining \up on input line 32.
+LaTeX Info: Redefining \dots on input line 35.
+LaTeX Info: Redefining \up on input line 35.
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 32.
+(french.ldf)                of your document; reported on input line 35.
 
-\AtBeginShipoutBox=\box35
+\AtBeginShipoutBox=\box36
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -767,12 +781,12 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -781,15 +795,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 42.
+less on input line 45.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 44.
+less on input line 47.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 45.
+less on input line 48.
 
 [1] (./federate_learning.toc)
 \tf@toc=\write3
@@ -800,36 +814,34 @@ less on input line 45.
 ]
 Chapitre 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
+<./images/ML_vignette.png, id=15, 1927.2pt x 1084.05pt>
+File: ./images/ML_vignette.png Graphic file (type png)
+<use ./images/ML_vignette.png>
+Package pdftex.def Info: ./images/ML_vignette.png  used on input line 82.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
 [1
 
 ]
-<./images/machine_learing_1.png, id=19, 600.2425pt x 404.51125pt>
-File: ./images/machine_learing_1.png Graphic file (type png)
-<use ./images/machine_learing_1.png>
-Package pdftex.def Info: ./images/machine_learing_1.png  used on input line 85.
-
-(pdftex.def)             Requested size: 240.09274pt x 161.80162pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
@@ -839,7 +851,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./images/machine_learing_1.png>]
+[2 <./images/ML_vignette.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -851,11 +867,11 @@ Chapitre 2.
 [4
 
 ]
-<./images/deep_learning_schema.png, id=33, 723.70375pt x 492.84125pt>
+<./images/deep_learning_schema.png, id=32, 723.70375pt x 492.84125pt>
 File: ./images/deep_learning_schema.png Graphic file (type png)
 <use ./images/deep_learning_schema.png>
 Package pdftex.def Info: ./images/deep_learning_schema.png  used on input line 
-131.
+116.
 (pdftex.def)             Requested size: 289.47636pt x 197.133pt.
 
 
@@ -869,7 +885,7 @@ Chapitre 3.
 [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 []\OT1/cmr/m/n/12 Pour la par-tie sur le Ma-chine Lear-ning
  []
 
@@ -877,25 +893,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
 ]
 Annexe A.
-<pdf/federate_learning_en.pdf, id=46, 614.295pt x 794.97pt>
+<pdf/federate_learning_en.pdf, id=45, 614.295pt x 794.97pt>
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf>
-Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 186.
+Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 172.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf>
-Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 186.
+Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 172.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<pdf/federate_learning_en.pdf, id=49, page=1, 614.295pt x 794.97pt>
+<pdf/federate_learning_en.pdf, id=48, page=1, 614.295pt x 794.97pt>
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 186.
+e 172.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 186.
+e 172.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [8
 
@@ -903,17 +919,17 @@ e 186.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 186.
+e 172.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 186.
+e 172.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 186.
+e 172.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [9 <./pdf/federate_learning_en.pdf>] (./federate_learning.aux)
 
@@ -921,29 +937,28 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6960 strings out of 494276
- 99517 string characters out of 6162348
- 174430 words of memory out of 5000000
- 10169 multiletter control sequences out of 15000+600000
- 14015 words of font info for 53 fonts, out of 8000000 for 9000
+ 7233 strings out of 494276
+ 102950 string characters out of 6162348
+ 180010 words of memory out of 5000000
+ 10439 multiletter control sequences out of 15000+600000
+ 13403 words of font info for 51 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
- 42i,18n,43p,566b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,18n,43p,733b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on federate_learning.pdf (12 pages, 315374 bytes).
+type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on federate_learning.pdf (12 pages, 344718 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -15,7 +15,7 @@
 \usepackage{subcaption}
 
 \usepackage[french]{babel}
-\usepackage[Sonny]{fncychap}
+\usepackage[Bjarne]{fncychap}
 \usepackage{fancyhdr}
 \usepackage{float}
 \usepackage{epsfig}
@@ -26,6 +26,9 @@
 
 \pagestyle{fancy}
 
+
+\usepackage{titlesec}
+%-\titleformat{\chapter}[display]{\bfseries}{\huge\chaptertitlename~\thechapter}{10pt}{\LARGE}--%
 
 %−−− Page de garde - titre −−−
 
@@ -68,52 +71,32 @@
 
 \chapter{Machine Learning}
 \thispagestyle{plain}\setcounter{page}{1} % Start page count
-\section{En quoi consiste le Machine Learning}
+\section{Les concepts du Machine Learning}
+Le Machine Learning appelé en Français apprentissage automatique [x: wikipédiea] a pour objectif de traiter l'information afin de lui donner de la valeur ajoutée.\\
 
-Le Machine Learning est présent partout sur la toile, cela va au moteur de recherche comme Google. Nos applications tels que Siri et Alexa. Les fil d'actualités comme Facebook et Twitter. Toutes ces platformes stockent des données sur les utilisateurs afin de comprendre et d'améliorer leurs performances. Ces données serviront à mieux cibler ce que les utilisateurs aiment. La machine pourra ainsi proposer plus facilement des recommandations ou des résultats pour des recherches.\\
+De nos jours, le Machine Learning est présent partout sur la toile, cela va du moteur de recherche comme Google, aux assistants vocaux comme Siri et Alexa, les fil d'actualités des réseaux sociaux comme Facebook et Twitter. Le point commun entre toutes ces platformes et le stockage massif des données de leur utilisateur appelé Big Data [x: ?]. Le Big Data est une technologie apparue dans les années xxxx, a permis l'essor de l'apprentissage automatique, le Machine Learning. En effet, cet imposant volume de données collectées sur les utilisateurs a permis, dans les exemples cités ci dessus, de mieux cibler le comportement des utilisateurs et donc améliorer les expériences.\\
 
-Le Machine Learning fait partie d'une branche de l'intéligence artificielle (IA).Celle ci est utilisée dans  l'informatique, elle permet d'enseigner à des machines comment apprendre et agir sans nécissiter une programmation élaboré. De plus, le Machine Learning aborde le concept d'analyse des données qui utilise la construction et l'adaptation de modèles. Ainsi un ordinateur peut "apprendre" par l'expérience qu'il a acquise ce qui semble le plus proche du modèle passé en paramètre. 
-La présence d'algorithmes est nécessaire pour améliorer la capacité de prédiction d'un modèle suivant certains paramètres.\\
-
-
-Le Machine Learning peut etre différencié par deux catégories d'algorithmes : supervisés et non supervisés.
-
-L'apprentissage supervisé utilise des données qui sont déjà connues par le model avec une étiquette. A la fin de son entrainement,le model pourra être capable de retrouver des données dans le même domaine dont les données n'ont pas d'étiquette.\\
-
+Pour fonctionner, le Machine Learning(ML) a besoin de données à ingérer et d'avoir un modèle appris afin de fournir des données à valeur ajoutée comme des algorithmes de prédiction de bourse et la maintenance prédictive. Il est donc nécessaire d'identifier les solutions pour créer ces modèles de ML.\\
 
 \begin{center}
-	\includegraphics[scale=0.4]{machine_learing_1}
-	\captionof{figure}{Modèle supervisé}
+	\includegraphics[scale=0.2]{ML_vignette}
+	\captionof{figure}{Familles d'algorithmes les plus utilisés}
 	\label{fig1}
 \end{center}
 
+La première famille, l'appentrissage supervisé (en jaune dans la figure 1.1) consiste à donner des données en entrées, le résultat attendu itéré sur un grand jeu de données afin de trouver la modèle. Pour que le modèle deviennent performant, on fournit un grand volume de données dans le but qu'il se rapproche du modèle attendu.\\
 
-Sur cette image ci dessus, on peut constater que l'algorithme ajustera sont modèles en fonction de ses paramètres afin de diminuer l'écart entre les résultats attendus et les résultats obtenus. Ce qui diminuera au fil de l'entraînement les marges d'erreurs. \\
+La deuxième famille,l'apprentissage non-surpervisé (en bleu dans la figure 1.1) consiste à apprendre par reconnaitre des ressemblances et des différences entre les données fournies. L'algorithme rassemble les données en groupe suivant ce qui lui semble le plus pertinant. Ainsi quand on passe un modèle bien précis à l'algorithme, il trouve plus facilement car il a été entrainé.\\
 
-L'apprentissage non supervisé, quand à lui, permet d'entrainer le modèle sans étiquette. La machine cherche parmis les données sans indices et permet de découvrir les tendances.L'apprentissage par renforcement, ce modèle permet d'entrainer la machine avec un objectif bien précis.Le modèle a un système d'échecs et d'erreurs. \\
-
-
-
-
-
-
-\section{En quoi consiste le Machine Learning}
-
-Le Machine Learning est présent partout sur la toile, cela va au moteur de recherche comme Google. Nos applications tels que Siri et Alexa. Les fils d'actualités comme Facebook et Twitter. Toutes ces platformes stockent des données sur les utilisateurs afin de comprendre et d'améliorer leurs performances. Ces données serviront à mieux cibler ce que les utilisateurs aiment. La machine pourra ainsi proposer plus facilement des recommandations ou des résultats pour des recherches.
+Pour finir, il existe une catégorie qui gère sa propre expérience. En effet, l'apprentissage par renforcement (en rouge dans la figure 1.1) consiste à générer ses propres expériences. On se rapproche de l'automobile autonome, la machine change ses états suivant les actions qu'elle entreprend de faire. Un système de récompense positive et négative est mis en place pour constituer une nouvelle expérience et rendre la machine attentive pour maximiser ses chances de réussite.\\
 \pagebreak
 
-\section{Principes des concepts du Machine Learning}
+Pour conclure, le ML est une technologie qui vise à trouver des modèles, comprendre des comportements afin de prédire les besoins d'une application suivant un utilisateur.\\
+
+On peu constater que ce type de besoin se focalise sur une application spécifique cependant, le ML connait des limites au niveau des complexités combinatoire [x: ], or certaines applications nécessitent des applications plus complexes avec plus d'entrées, tels que le traitement des images. Pour palier aux limites du ML, le Deep Learning a vu son essort [x: lien vers essort DL]
+\pagebreak
 
 
-\section{Big Data et Machine Learning}
-
-Avec un grand nombre de données les outils analytiques ne savent pas traiter autant de donnés pour l'exploiter à bon escient. Un volume de données trop large empèche une analyse compréhensive. Les corrélations et les relations entre ces données sont trop importantes ce qui complique la tache pour des analystes. 
-
-C'est pour cette raison que le Machine Learning est idéal pour du Big Data. Cette technologie pourra extraire des valeurs qui proviennent de cette source de données sans passer par l'intermèdiaire d'un être humain.
-
-Sans le Big Data, le Machine learning et l'intelligence artificielle ne sont rien. Les données sont le moyen pour le Machine Learning d'apprendre et de comprendre comment pensent les humains. 
-
-La technologie est capable d'apprendre en allant chercher elle même des ensembles de données pour les analyser et devenir plus précise.
 
 \chapter{Deep Learning}
 \section{Le concept du Deep Learning}
@@ -121,6 +104,8 @@ La technologie est capable d'apprendre en allant chercher elle même des ensembl
 Le Deeo Learning est basé sur un système d'un réseau neuronal inspiré des systèmes cérébraux. Ce type d'apprentissage est d'y supervisé car c'est le développeur qui va décidé sur quel type d'apprentissage il va lancer le Deep Learning. Cette technique à besoin d'énormément de données, on parlera donc de Data Lake. 
 
 Pour que le modèle mathématique deviennent performant, il faudra l'entrainer à reconnaitre un élément en particulier. Prenons le cas de la reconnaissance d'un animal. Pour la phase d'apprentissage nous passerons au système plusieurs images d'animaux. On précisera dans la partie d'entrainement les éléments auquels le système devra être conscient.
+
+
 \pagebreak
 
 \section{L'entraînement du Deep Learning}
@@ -133,6 +118,7 @@ Pour notre exemple, les boules vertes représente le bon chemin que le système 
 	\label{fig1}
 \end{center}
 
+On peut constater que ce type d'algorithme peut être très vite devenir énergivore. De plus, de DL se focalise principalement sur une application. Or, il peut être intéressant d'étudier plusieurs applications similaires afin d'identifier des modèles plus poussés. C'est dans ce contexte que nous allons introduire le Federated Learning.
 
 
 \chapter{Federate Learning}
