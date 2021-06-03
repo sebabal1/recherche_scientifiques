@@ -1,14 +1,12 @@
 \babel@toc {french}{}
 \contentsline {chapter}{\numberline {1}Machine Learning}{1}
-\contentsline {section}{\numberline {1.1}Les concepts du Machine Learning}{1}
 \contentsline {chapter}{\numberline {2}Deep Learning}{4}
-\contentsline {section}{\numberline {2.1}Le concept du Deep Learning}{4}
-\contentsline {section}{\numberline {2.2}L'entra\IeC {\^\i }nement du Deep Learning}{5}
-\contentsline {chapter}{\numberline {3}Federate Learning}{6}
-\contentsline {section}{\numberline {3.1}D\IeC {\'e}finition du Federate Learning}{6}
-\contentsline {section}{\numberline {3.2}Algorithme de Federate Learning}{6}
-\contentsline {section}{\numberline {3.3}Impl\IeC {\'e}mentation}{6}
-\contentsline {section}{\numberline {3.4}Deep Learning, cas d'utilisation}{6}
-\contentsline {subsection}{\numberline {3.4.1}Smart Building}{6}
-\contentsline {subsection}{\numberline {3.4.2}Industrie}{6}
-\contentsline {chapter}{\numberline {A}Annexe}{8}
+\contentsline {section}{\numberline {2.1}Les concepts}{4}
+\contentsline {section}{\numberline {2.2}Mod\IeC {\`e}le d'entra\IeC {\^\i }nement}{5}
+\contentsline {chapter}{\numberline {3}Federated Learning}{6}
+\contentsline {section}{\numberline {3.1}D\IeC {\'e}finition du Federated Learning}{6}
+\contentsline {section}{\numberline {3.2}Impl\IeC {\'e}mentation}{7}
+\contentsline {section}{\numberline {3.3}Deep Learning, cas d'utilisation}{7}
+\contentsline {subsection}{\numberline {3.3.1}Smart Building}{7}
+\contentsline {subsection}{\numberline {3.3.2}Industrie}{7}
+\contentsline {chapter}{\numberline {A}Annexe}{9}

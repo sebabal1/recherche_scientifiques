@@ -45,9 +45,9 @@
 \fancyhead[LE,RO]{\leftmark}
 
 \fancyhead[RE,LO]{}
-\fancyfoot[RE,LO]{}
-\fancyfoot[C]{Master en Science infomatique - Lecture et rédaction scientifique}
-\fancyfoot[R]{\textbf{\thepage}}
+
+
+
  
 
 %=============== Remerciement ===============
@@ -59,19 +59,14 @@
 
 \end{figure}
 
-
- 
-
-
-
-
 \tableofcontents
+\thispagestyle{empty} % Ignore page number
 
-
+\fancyfoot[C]{Master en Science infomatique - Lecture et rédaction scientifique}
+\fancyfoot[R]{\thepage}
 
 \chapter{Machine Learning}
 \thispagestyle{plain}\setcounter{page}{1} % Start page count
-\section{Les concepts du Machine Learning}
 Le Machine Learning appelé en Français apprentissage automatique [x: wikipédiea] a pour objectif de traiter l'information afin de lui donner de la valeur ajoutée.\\
 
 De nos jours, le Machine Learning est présent partout sur la toile, cela va du moteur de recherche comme Google, aux assistants vocaux comme Siri et Alexa, les fil d'actualités des réseaux sociaux comme Facebook et Twitter. Le point commun entre toutes ces platformes et le stockage massif des données de leur utilisateur appelé Big Data [x: ?]. Le Big Data est une technologie apparue dans les années xxxx, a permis l'essor de l'apprentissage automatique, le Machine Learning. En effet, cet imposant volume de données collectées sur les utilisateurs a permis, dans les exemples cités ci dessus, de mieux cibler le comportement des utilisateurs et donc améliorer les expériences.\\
@@ -99,18 +94,20 @@ On peu constater que ce type de besoin se focalise sur une application spécifiq
 
 
 \chapter{Deep Learning}
-\section{Le concept du Deep Learning}
+\section{Les concepts}
 
-Le Deeo Learning est basé sur un système d'un réseau neuronal inspiré des systèmes cérébraux. Ce type d'apprentissage est d'y supervisé car c'est le développeur qui va décidé sur quel type d'apprentissage il va lancer le Deep Learning. Cette technique à besoin d'énormément de données, on parlera donc de Data Lake. 
-
-Pour que le modèle mathématique deviennent performant, il faudra l'entrainer à reconnaitre un élément en particulier. Prenons le cas de la reconnaissance d'un animal. Pour la phase d'apprentissage nous passerons au système plusieurs images d'animaux. On précisera dans la partie d'entrainement les éléments auquels le système devra être conscient.
+Le Deep Learning(DL) est représentatif d'un système neuronal comme notre système cérébral, il est conçus de plusieurs neuronnes qui intéragissent entre eux. Pour rendre performant tous ces neuronnes, il est nécessaire d'avoir une grande quantité de données, un Data Lake. Celui ci fournit au système plusieurs informations afin de lui constituer une "mémoire". Cette mémoire lui permet de reconnaitre des éléments bien particulier suivant l'entrainement qu'il aura suivit. Cet entrainement est supervisé par des développeurs qui vérifient que le DL ne sort pas de son modèles définis.
+Si il s'en éloigne, ils corrigent son algorithme mathématique pour le rendre performant et le remettre sur le droit chemin. Pour que le modèle mathématique deviennent performant, il faudra l'entrainer à reconnaitre une donnée en particulier. C'est le sujet de notre prochaine section.
 
 
 \pagebreak
 
-\section{L'entraînement du Deep Learning}
+\section{Modèle d'entraînement}
 
-Pour notre exemple, les boules vertes représente le bon chemin que le système va prendre pour arriver à vérifier le modèle qui était demandé. Les boules bleus sont celles qui ont des caractéristiques avec le modèle mais ne correspondra pas exactement au modèle qui était demandé. Les boules rouges quand à elles, représentent les erreurs que le système a exclu pour pouvoir apprendre le modèle exacte. Les erreurs sont par la suite renvoyées en amont du système pour que le système ajuste son modèle mathématique
+Pour entrainer le DL, il lui faut un algorithme mathématique et un grand flux de données afin d'affiner ses recherches et prendre de l'expérience. Dans notre situation, on décider de prendre la reconnaissance d'une image, en particulier celle d'un chat.
+On fournit à l'algorithme un flux d'images de plusieurs espèces d'animaux, on définit les paramètres qui permettent d'affirmer que l'image que l'on soumet soit bien un chat. Ainsi avec ces critères, l'algorithme devient plus précis car on le guide un peu sur l'objectif qu'il doit atteindre.
+ 
+Voici un schéma pour l'exemple du fonctionnement du DL,[fig2.1], les boules vertes représente le bon chemin que le système va prendre pour arriver à vérifier le modèle qui était demandé. Les boules bleus sont celles qui ont des caractéristiques avec le modèle mais ne correspondra pas exactement au modèle qui était demandé. Les boules rouges quand à elles, représentent les erreurs que le système a exclu pour pouvoir apprendre le modèle exacte. Les erreurs sont par la suite renvoyées en amont du système pour que le système ajuste son modèle mathématique
 
 \begin{center}
 	\includegraphics[scale=0.4]{deep_learning_schema}
@@ -118,16 +115,26 @@ Pour notre exemple, les boules vertes représente le bon chemin que le système 
 	\label{fig1}
 \end{center}
 
-On peut constater que ce type d'algorithme peut être très vite devenir énergivore. De plus, de DL se focalise principalement sur une application. Or, il peut être intéressant d'étudier plusieurs applications similaires afin d'identifier des modèles plus poussés. C'est dans ce contexte que nous allons introduire le Federated Learning.
+On peut constater que ce type d'algorithme peut être très vite devenir énergivore. De plus, le DL se focalise principalement sur une application. Or, il peut être intéressant d'étudier plusieurs applications similaires afin d'identifier des modèles plus poussés. C'est dans ce contexte que nous allons introduire le Federated Learning.
 
 
-\chapter{Federate Learning}
-\section{Définition du Federate Learning}
+\chapter{Federated Learning}
+\section{Définition du Federated Learning}
+
+
+Notre époque fait face à deux défis importants en terme d'avencer technologique: les respects des données des utilisateurs et l'augmentation du volume des données.
+
+L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur. Ces données ne peuvent pas être utilisé sans son accord.
+
+Ensuite le silo des données met un frein à l'évolution de l'industrie moderne, c'est en ayant plus de données que l'on peut améliorer la qualité de la formation. Cependant le manque de données valides dans le domaine médical vient principalement du faite que les travailleurs doivent être expérimentés dans certains domaines comme celui de l'industrie médicale.
+
+C'est grâce au Federated Learning(FL) que l'essort de l'industrie a relevé ces défis. Car le FL est un processus d'apprentissage automatique qui vise a exploité les îlots de données tout en gardant la sécurité des données.
+
+
+
 
 En quelques mots, c'est un apprentissage automatique distribué qui permet d'entraîner un modèle mathématique avec un large groupe de données décentralisées qui se trouvent sur des téléphones portables(pour notre cas ici).
 
-
-\section{Algorithme de Federate Learning}
 
 
 \section{Implémentation}
