@@ -122,18 +122,15 @@ On peut constater que ce type d'algorithme peut être très vite devenir énergi
 \section{Définition du Federated Learning}
 
 
-Notre époque fait face à deux défis importants en terme d'avencer technologique: les respects des données des utilisateurs et l'augmentation du volume des données.
+Notre époque fait face à deux défis importants en terme d'avencer technologique: les respects des données des utilisateurs et l'augmentation du volume des données. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisé sans son accord. Ensuite le silo des données met un frein à l'évolution de l'industrie moderne, c'est en ayant plus de données que l'on peut améliorer la qualité de la formation. Cependant le manque de données valides dans le domaine médical vient principalement du faite que les travailleurs doivent être expérimentés dans certains domaines comme celui de l'industrie médicale pour que la qualité des données soient au rendez vous.\\
 
-L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur. Ces données ne peuvent pas être utilisé sans son accord.
+C'est grâce au Federated Learning(FL) que l'essort de l'industrie a relevé ces défis. Car le FL est un processus d'apprentissage automatique qui vise a exploité les îlots de données tout en gardant la sécurité des données. Des clients sont coordonnées avec un ou plusieurs serveurs pour faciliter une décentralisation d'un appentrissage automatique. Le FL est lié aux deux concepts que nous avons vu précédements le Machine Learning et le Deep Learning, ce système distribué contient des calculs et des données tous les deux distribués. Le traitement distribué met en place plusieurs appareils connectés à différents endroits via un réseau de communication sous la surveillance d'un serveur centrale afin d'effectuer une partie de la même tâche pour l'accomplir. Le modèle distribué vise à améliorer l'étape de traitement comparer au FL qui lui se base sur un modèle collaboratif afin d'éviter des fuites de confidentialité.\\
 
-Ensuite le silo des données met un frein à l'évolution de l'industrie moderne, c'est en ayant plus de données que l'on peut améliorer la qualité de la formation. Cependant le manque de données valides dans le domaine médical vient principalement du faite que les travailleurs doivent être expérimentés dans certains domaines comme celui de l'industrie médicale.
+Pour mieux comprendre son fonctionnement, le FL déroule en plusieurs étapes, la formation fédérée est celle qui est la plus courante. Pour commencer, un appareil mobile se procure un modèle en le téléchargeant afin d'avoir un formation suivie en local. En second lieu, le modèle téléchargé est subit à de multiple mises à jours régulière en local afin d'être amélioré, celles ci contiennent des données locales qui appartiennent à différents appareils séparés. Ensuite, ils téléchargent des informations d'un champ de vecteurs présent dans un cloud. En troisième lieu, les modèles locaux effectuent une mise à jour moyenne au sein du cloud et est envoyé à un appareil défini comme le modèle mondial renouvelé. Pour finir, ces étapes précédentes se répètent afin d'arriver à un modèle avec une certaine performance ou qu'une date limite soit atteinte.
 
-C'est grâce au Federated Learning(FL) que l'essort de l'industrie a relevé ces défis. Car le FL est un processus d'apprentissage automatique qui vise a exploité les îlots de données tout en gardant la sécurité des données.
+Le FL est capable de traiter des données partionnées horizontalement suivant des echantillons et aussi de façon verticale suivant les caractéristiques du modèle d'apprentissage.
 
-
-
-
-En quelques mots, c'est un apprentissage automatique distribué qui permet d'entraîner un modèle mathématique avec un large groupe de données décentralisées qui se trouvent sur des téléphones portables(pour notre cas ici).
+En quelques mots, c'est un apprentissage automatique distribué qui permet d'entraîner un modèle mathématique avec un large groupe de données décentralisées qui se trouvent sur des appareils distants. 
 
 
 
