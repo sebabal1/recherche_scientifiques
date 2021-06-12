@@ -65,7 +65,8 @@
 \fancyfoot[C]{Master en Science infomatique - Lecture et rédaction scientifique}
 \fancyfoot[R]{\thepage}
 
-\chapter{Machine Learning}
+\chapter{Concepts}
+\section{Machine Learning}
 \thispagestyle{plain}\setcounter{page}{1} % Start page count
 Le Machine Learning appelé en Français apprentissage automatique [x: wikipédiea] a pour objectif de traiter l'information afin de lui donner de la valeur ajoutée.\\
 
@@ -93,8 +94,7 @@ On peu constater que ce type de besoin se focalise sur une application spécifiq
 
 
 
-\chapter{Deep Learning}
-\section{Les concepts}
+\section{Deep Learning}
 
 Le Deep Learning(DL) est représentatif d'un système neuronal comme notre système cérébral, il est conçus de plusieurs neuronnes qui intéragissent entre eux. Pour rendre performant tous ces neuronnes, il est nécessaire d'avoir une grande quantité de données, un Data Lake. Celui ci fournit au système plusieurs informations afin de lui constituer une "mémoire". Cette mémoire lui permet de reconnaitre des éléments bien particulier suivant l'entrainement qu'il aura suivit. Cet entrainement est supervisé par des développeurs qui vérifient que le DL ne sort pas de son modèles définis.
 Si il s'en éloigne, ils corrigent son algorithme mathématique pour le rendre performant et le remettre sur le droit chemin. Pour que le modèle mathématique deviennent performant, il faudra l'entrainer à reconnaitre une donnée en particulier. C'est le sujet de notre prochaine section.
@@ -102,7 +102,7 @@ Si il s'en éloigne, ils corrigent son algorithme mathématique pour le rendre p
 
 \pagebreak
 
-\section{Modèle d'entraînement}
+\subsection{Modèle d'entraînement}
 
 Pour entrainer le DL, il lui faut un algorithme mathématique et un grand flux de données afin d'affiner ses recherches et prendre de l'expérience. Dans notre situation, on décider de prendre la reconnaissance d'une image, en particulier celle d'un chat.
 On fournit à l'algorithme un flux d'images de plusieurs espèces d'animaux, on définit les paramètres qui permettent d'affirmer que l'image que l'on soumet soit bien un chat. Ainsi avec ces critères, l'algorithme devient plus précis car on le guide un peu sur l'objectif qu'il doit atteindre.
@@ -118,9 +118,7 @@ Voici un schéma pour l'exemple du fonctionnement du DL,[fig2.1], les boules ver
 On peut constater que ce type d'algorithme peut être très vite devenir énergivore. De plus, le DL se focalise principalement sur une application. Or, il peut être intéressant d'étudier plusieurs applications similaires afin d'identifier des modèles plus poussés. C'est dans ce contexte que nous allons introduire le Federated Learning.
 
 
-\chapter{Federated Learning}
-\section{Définition du Federated Learning}
-
+\section{Federated Learning}
 
 Notre époque fait face à deux défis importants en terme d'avencer technologique: les respects des données des utilisateurs et l'augmentation du volume des données. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisé sans son accord. Ensuite le silo des données met un frein à l'évolution de l'industrie moderne, c'est en ayant plus de données que l'on peut améliorer la qualité de la formation. Cependant le manque de données valides dans le domaine médical vient principalement du faite que les travailleurs doivent être expérimentés dans certains domaines comme celui de l'industrie médicale pour que la qualité des données soient au rendez vous.\\
 
@@ -132,18 +130,41 @@ Le FL est capable de traiter des données partionnées horizontalement suivant d
 
 En quelques mots, c'est un apprentissage automatique distribué qui permet d'entraîner un modèle mathématique avec un large groupe de données décentralisées qui se trouvent sur des appareils distants. 
 
+\pagebreak
+
+\chapter{Technologies existantes (Framework)}
+\subsection{TensorFlow Federated (TFF)}
+
+Les frameworks ne manquent pas pour manipuler des modèles mathématique et les implémenter pour du ML. Le framework TensorFlow Federated en est un qui est totalement openSource. Il permet aux développeurs de simuler des algorithmes d'apprentissage sur leur modèles et bien entendu tester de nouveau algorithmes. Le TFF est constitué d'un environnement d'exécution de simulation dans lequel on peut simulé nos algorithmes, celle ci est utilisée par une seule machine dédiée aux tests.
+
+\subsection{Federated AI Technology Enabler (FATE)}
+
+\chapter{Catégorisation}
+
+Le FL est caractérisé par trois grands groupes qui surviennet régulièrement, ceux ci sont le FL Horizontal, le FL vertical et le Federated Transfer Learning. Les données stockées sont placées dans différents noeuds, celles ci sont sous forme de matrice de caractéristiques. Les données sont composées de multiples instances, la partie horizontale est représentée comme un client, celle verticale se caractérise par les caractéristiques du client. Pour finir, on peut séparer le FL suivant le mode de partition des données.\\
+
+\subsection{Horizontal FL}
+
+Pour celui du FL Horizontal, des chevauchements peuvent apparaitrent entre les caractéristiques des données qui sont réparties sur différents noeuds, malgré le fait que les données ne sont pas semblables sur l'espace d'échantillonnage. Les données du point de vue de l'échantillonage sont différentes dans les scénarios des appareils connecté à Internet et les appareils intelligents. Mais ils sont particulièrment similaire dans un espace de fonctionnalité. Les mises à jours, comme nous l'avons vu précédement dans le point du FL, celle si est faite de façon horizontal. En effet, la dimension d'entité est la même pour chaque données. Dans les applications médicales, une forte hausse de travail est nécessaire pour collecté un grand nombre de données. Car il est difficile voir inconcevable pour chaque hôpital de créer une banque de données à partager. Via un réseau fédéral pour les hôpitaux construit par le FL permet d'améliorer le modèle(voir Fig 3.1).
+
+\begin{center}
+	\includegraphics[scale=0.2]{fl_horizontal}
+	\captionof{figure}{Horizontal FL}
+	\label{fig1}
+\end{center}
 
 
-\section{Implémentation}
-Dans notre modèle, nous allons utilisé le système TensorFlow pour former notre système neuronal. TensorFlow est une bibliothèque open source pour le Machine Learning. C'est un petit couteau Suisse qui contient ici des outils pour permettre de résoudre des problèmes mathématiques. 
+\subsection{Vertical FL}
+Lorsque les données sont partitionnées, le FL vertical est plus approprié, chaque parties contient des données homogènes. Ce qui implique que les chevauchement se font en partie sur l'ID de l'échantillon alors qu'elle est différente dans l'espace fonctionnel. Prenons le cas d'un établissement médical, ils souhaitent identifier des maladies telles que le diabète. Il peut être analysé suivant certaines dimensions comme l'âge, le poids et les antécédants médicaux le type de diabète qu'un patient peut avoir. Avec le FL, certaines applications possèdent des données comme le nombre de pas ou la composition des plats qu'un personne a. Ces données peuvent être utilisées pour faciliter cette reconnaissance. La figure 3.2 illustre très bien le FL vertical.
 
-\section{Deep Learning, cas d'utilisation}
+\begin{center}
+	\includegraphics[scale=0.2]{fl_vertical}
+	\captionof{figure}{Verticla FL}
+	\label{fig1}
+\end{center}
+\subsection{Federated Transfer Learning (FTL)}
 
-\subsection{Smart Building}
-
-\subsection{Industrie}
-
-
+\chapter{Exemples d'utilisations}
 
 
 \begin{thebibliography}{9}
