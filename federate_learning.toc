@@ -10,6 +10,7 @@
 \contentsline {chapter}{\numberline {3}Cat\IeC {\'e}gorisation}{9}
 \contentsline {subsection}{\numberline {3.0.1}Horizontal FL}{9}
 \contentsline {subsection}{\numberline {3.0.2}Vertical FL}{10}
-\contentsline {subsection}{\numberline {3.0.3}Federated Transfer Learning (FTL)}{10}
-\contentsline {chapter}{\numberline {4}Exemples d'utilisations}{11}
-\contentsline {chapter}{\numberline {A}Annexe}{13}
+\contentsline {subsection}{\numberline {3.0.3}Federated Transfer Learning (FTL)}{11}
+\contentsline {chapter}{\numberline {4}Exemples d'utilisations}{12}
+\contentsline {subsection}{\numberline {4.0.1}La Finance}{12}
+\contentsline {chapter}{\numberline {A}Annexe}{15}

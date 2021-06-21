@@ -155,17 +155,38 @@ Pour celui du FL Horizontal, des chevauchements peuvent apparaitrent entre les c
 
 
 \subsection{Vertical FL}
+
 Lorsque les données sont partitionnées, le FL vertical est plus approprié, chaque parties contient des données homogènes. Ce qui implique que les chevauchement se font en partie sur l'ID de l'échantillon alors qu'elle est différente dans l'espace fonctionnel. Prenons le cas d'un établissement médical, ils souhaitent identifier des maladies telles que le diabète. Il peut être analysé suivant certaines dimensions comme l'âge, le poids et les antécédants médicaux le type de diabète qu'un patient peut avoir. Avec le FL, certaines applications possèdent des données comme le nombre de pas ou la composition des plats qu'un personne a. Ces données peuvent être utilisées pour faciliter cette reconnaissance. La figure 3.2 illustre très bien le FL vertical.
 
 \begin{center}
 	\includegraphics[scale=0.2]{fl_vertical}
-	\captionof{figure}{Verticla FL}
+	\captionof{figure}{Vertical FL}
 	\label{fig1}
 \end{center}
+\pagebreak
+
 \subsection{Federated Transfer Learning (FTL)}
+
+En comparaison des deux scénarios vu précédement, dans la plupart des cituations, sur les espaces d'échantillonage et d'espace d'entité les données n'y sont pas partagées. Ce qui implique un manque d'étiquette et une mauvaise qualité des données. Le principe du FTL est transféré les données d'un domaine vers un autre afin de réaliser de meilleurs résultats d'apprentissage. Ainsi, le FTL permet d'avoir une application étendue pour ce qui est de parties communes avec des intersections étroites. Pour un système de réseaux de neuronnes qui possèdent une technologie de cryptage homomorphique peut empêcher des fuites de confidentialités mais aussi garder une très bonne précision. 
+
+Dans le cadre d'une application avec le modèle FedHealth rassemble un packet de données qui appartiennent à des organisations différentes via FL et permet d'avoir un service personnalisé pour des soins de santé. Sur la Fig 3.3, des informations sur le diagnostic et le traitement de certaines maladies peuvent être partagées avec un autre hôpital dans le but de faciliter des diagnostics. Les problèmes qui surviennent à l'heure actuelle dans le milieu de l'industrialisation sont les îlots de données et la protection de la vie privée mais avec le FTL, celui ci permet d'avoir un service de sécurité fiable pour la protection des données et la confidentialité des utilisateurs tout en cassant les barreaux des îlots de données.
+
+\begin{center}
+	\includegraphics[scale=0.2]{fl_distribute}
+	\captionof{figure}{FTL}
+	\label{fig1}
+\end{center}
 
 \chapter{Exemples d'utilisations}
 
+Dans notre société, le FL peut être un atout majeur pour plusieurs secteurs comme la finance, les soins de santé et l'éducation. Plusieurs applications qui peuvent faciliter les employers dans leur travail de tous les jours ou encore aider à la reconnaissance de certaines maladies et bien entendu aider nos têtes blondes pour améliorer et faciliter leur apprentissage pour qu'ils deviennent les hommes et les femmes de demain. Beaucoup de possibilités et pour se faire, un aperçu des ses applications dans lesquels il est possible d'utiliser le FL. 
+
+
+Les deux problèmes qui surgissent sont la protection de la vie privée et la sécurité des données
+
+\subsection{La Finance}
+
+Le secteur de la finance est très important avec des réglementations gouvernementales pour la protection des investisseurs contre la fraude et la mauvaise gestion, conserver la confidentialité et la sécurités des données des utilisateurs. Dans le but de réduire les coûts et la charge de travail, des sociétés banquaires et financières exploitent les technologies modernes comme l'IA, les services de cloud et la technologie sur les téléphone mobile pour assurer un service financier de qualité tout en respectant les réglementations gouvernemantales. Un cas bien particulier est le financement intelligent à la consomation, son objectif vise à prendre parti des techniques de ML afin de proposer des services financiers propre à chacun. Les données utilisées dans un crédit à la consommation sont fait d'informations sur les consommateurs comme le pouvoir d'achat, le préférence d'achat et aussi les caractéristiques du produit. Ces données peuvent être utilisée par diversses entreprises ou sociétés. Ainsi dans la Figure xxx, les informations de qualifications et le pouvoir d'achat peuvent être déduit de son épargne bancaire et de sa préférence d'achat sur des produits ou services. On fait face dans notre exemple à deux problèmes. Le premier est la protection de la vie privé des consommateurs et le sécurité des données barrière entre les banques, les réseaux sociaux, les sites d'e-commerce. Le deuxième, ce sont le stockages des données par trois sections sont hétérogènes, ce qui empêche le ML classique de fonctionner sur des données hétérogènes. C'est pour cette raison que le FL résout ces problèmes. Le FL peut scinder les données en trois parties sans exposer les données. On peut aussi utiliser l'apprentissage par transfert pour examiner les données hétérogène.
 
 \begin{thebibliography}{9}
 
@@ -175,6 +196,22 @@ Lorsque les données sont partitionnées, le FL vertical est plus approprié, ch
 	  Addison Wesley, Massachusetts,
 	  2nd Edition,
 	  1994.
+	  
+	\bibitem{LiliYuxiTseLin}
+	  Li Li, Fan de Yuxi, Mike Tse, Kuo-Yi Lin,
+	  \emph{\LaTeX: A review of applications in federated leaning}.
+	  Comuters and Industrial Engineering,
+	  Volume 149,
+	  November 2020,
+	  106854
+	  
+	  \bibitem{FL_synthesis}
+	  Qiang Yang, Yang Liu, Yong Cheng, Yan Kang, Tianjian Chen, Han Yu
+	  \emph{\LaTeX: Federated Learning, Synthesis Lectures on Artificial Intelligence and Machine Learning}.
+	  Ronald J. Brachlan, Francesca Rossi and Peter Stone,
+	  Morgan and Claypool publishers,
+	  Series Editors
+	  December 2019
 	  
 	\bibitem{bigdata}
 	Pour la partie sur le Machine Learning https://www.lebigdata.fr/machine-learning-et-big-data
@@ -187,9 +224,7 @@ Lorsque les données sont partitionnées, le FL vertical est plus approprié, ch
 \label{TensorFlow : https://www.lebigdata.fr/tensorflow-definition-tout-savoir}
 
 %Citeseer citeseer.ist.psu.edu,Google Scholar scholar.google.com,ScienceDirect www.sciencedirect.com,ACM Digital Library portal.acm.org,IEEE Digital Library www.computer.org/portal/site/csdl/index.jsp
-
-
-\label{https://www.youtube.com/watch?v=QR1SnCRungE&ab_channel=AlainOlivetti} 
+ 
 
 
 \begin{appendix}
