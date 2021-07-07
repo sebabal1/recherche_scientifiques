@@ -13,4 +13,5 @@
 \contentsline {subsection}{\numberline {3.0.3}Federated Transfer Learning (FTL)}{10}
 \contentsline {chapter}{\numberline {4}Exemples d'utilisations}{11}
 \contentsline {subsection}{\numberline {4.0.1}La Finance}{11}
-\contentsline {chapter}{\numberline {A}Annexe}{14}
+\contentsline {subsection}{\numberline {4.0.2}La sant\IeC {\'e}}{12}
+\contentsline {chapter}{\numberline {A}Annexe}{15}
