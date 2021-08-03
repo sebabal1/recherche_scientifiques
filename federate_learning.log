@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  7 JUL 2021 16:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  3 AUG 2021 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,12 +849,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
@@ -865,7 +865,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2 <./images/ML_vignette.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
@@ -880,10 +880,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./images/deep_learning_schema.png Graphic file (type png)
 <use ./images/deep_learning_schema.png>
 Package pdftex.def Info: ./images/deep_learning_schema.png  used on input line 
-110.
+112.
 (pdftex.def)             Requested size: 289.47636pt x 197.133pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
@@ -894,7 +894,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4 <./images/deep_learning_schema.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
@@ -914,7 +914,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [6]
 Chapitre 2.
 
-Overfull \hbox (12.59444pt too wide) in paragraph at lines 135--136
+Overfull \hbox (12.59444pt too wide) in paragraph at lines 151--152
 []\OT1/cmr/m/n/12 Les fra-me-works ne manquent pas pour ma-ni-pu-ler des mod^^R
 eles math^^Sematique
  []
@@ -924,34 +924,34 @@ eles math^^Sematique
 ]
 Chapitre 3.
 
-Overfull \hbox (5.47379pt too wide) in paragraph at lines 141--142
+Overfull \hbox (5.47379pt too wide) in paragraph at lines 157--158
 []\OT1/cmr/m/n/12 Le FL est ca-ract^^Seris^^Se par trois grands groupes qui sur
 -vien-net r^^Seguli^^Rerement,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Overfull \hbox (25.0318pt too wide) in paragraph at lines 145--146
+Overfull \hbox (25.0318pt too wide) in paragraph at lines 161--162
 \OT1/cmr/m/n/12 malgr^^Se le fait que les donn^^Sees ne sont pas sem-blables su
 r l'es-pace d'^^Sechantillonnage.
  []
 
-<./images/fl_horizontal.png, id=43, 1353.055pt x 738.76pt>
+<./images/fl_horizontal.png, id=44, 1353.055pt x 738.76pt>
 File: ./images/fl_horizontal.png Graphic file (type png)
 <use ./images/fl_horizontal.png>
-Package pdftex.def Info: ./images/fl_horizontal.png  used on input line 148.
+Package pdftex.def Info: ./images/fl_horizontal.png  used on input line 164.
 (pdftex.def)             Requested size: 270.6062pt x 147.74937pt.
 [8
 
 ]
-<./images/fl_vertical.png, id=47, 1320.935pt x 674.52pt>
+<./images/fl_vertical.png, id=48, 1320.935pt x 674.52pt>
 File: ./images/fl_vertical.png Graphic file (type png)
 <use ./images/fl_vertical.png>
-Package pdftex.def Info: ./images/fl_vertical.png  used on input line 159.
+Package pdftex.def Info: ./images/fl_vertical.png  used on input line 175.
 (pdftex.def)             Requested size: 264.18231pt x 134.90161pt.
 
 
@@ -961,10 +961,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./images/fl_horizontal.png> <./images/fl_vertical.png>]
-<./images/fl_distribute.png, id=53, 1173.38374pt x 577.15625pt>
+<./images/fl_distribute.png, id=54, 1173.38374pt x 577.15625pt>
 File: ./images/fl_distribute.png Graphic file (type png)
 <use ./images/fl_distribute.png>
-Package pdftex.def Info: ./images/fl_distribute.png  used on input line 172.
+Package pdftex.def Info: ./images/fl_distribute.png  used on input line 188.
 (pdftex.def)             Requested size: 234.67259pt x 115.4292pt.
 
 
@@ -978,10 +978,10 @@ Chapitre 4.
 [11
 
 ]
-<./images/finances.png, id=62, 839.135pt x 466.74374pt>
+<./images/finances.png, id=63, 839.135pt x 466.74374pt>
 File: ./images/finances.png Graphic file (type png)
 <use ./images/finances.png>
-Package pdftex.def Info: ./images/finances.png  used on input line 189.
+Package pdftex.def Info: ./images/finances.png  used on input line 205.
 (pdftex.def)             Requested size: 167.82402pt x 93.34709pt.
 
 
@@ -998,7 +998,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 []\OT1/cmr/m/n/12 Pour la par-tie sur le Ma-chine Lear-ning
  []
 
@@ -1006,25 +1006,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
 ]
 Annexe A.
-<pdf/federate_learning_en.pdf, id=75, 614.295pt x 794.97pt>
+<pdf/federate_learning_en.pdf, id=76, 614.295pt x 794.97pt>
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf>
-Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 244.
+Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 260.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf>
-Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 244.
+Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 260.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<pdf/federate_learning_en.pdf, id=78, page=1, 614.295pt x 794.97pt>
+<pdf/federate_learning_en.pdf, id=79, page=1, 614.295pt x 794.97pt>
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 244.
+e 260.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 244.
+e 260.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [15
 
@@ -1032,17 +1032,17 @@ e 244.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 244.
+e 260.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 244.
+e 260.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 244.
+e 260.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [16 <./pdf/federate_learning_en.pdf>] (./federate_learning.aux)
 
@@ -1050,10 +1050,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7259 strings out of 494276
- 103482 string characters out of 6162348
+ 7261 strings out of 494276
+ 103505 string characters out of 6162348
  182009 words of memory out of 5000000
- 10461 multiletter control sequences out of 15000+600000
+ 10463 multiletter control sequences out of 15000+600000
  13403 words of font info for 51 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  42i,18n,43p,1868b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1063,15 +1063,16 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on federate_learning.pdf (19 pages, 1981523 bytes).
+type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on federate_learning.pdf (19 pages, 1990317 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 149 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

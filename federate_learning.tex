@@ -68,7 +68,7 @@
 \chapter{Concepts}
 \section{Machine Learning}
 \thispagestyle{plain}\setcounter{page}{1} % Start page count
-Le Machine Learning appelé en Français apprentissage automatique [x: wikipédiea] a pour objectif de traiter l'information afin de lui donner de la valeur ajoutée.\\
+Le Machine Learning appelé en Français apprentissage automatique "[...] est un champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques pour donner aux ordinateurs la capacité d'apprendre à partir de données[...]".Ceci a pour objectif de traiter l'information afin de lui donner de la valeur ajoutée.\\
 
 De nos jours, le Machine Learning est présent partout sur la toile, cela va du moteur de recherche comme Google, aux assistants vocaux comme Siri et Alexa, les fil d'actualités des réseaux sociaux comme Facebook et Twitter. Le point commun entre toutes ces platformes et le stockage massif des données de leur utilisateur appelé Big Data [x: ?]. Le Big Data est une technologie apparue dans les années 1900, a permis l'essor de l'apprentissage automatique, le Machine Learning. En effet, cet imposant volume de données collectées sur les utilisateurs a permis, dans les exemples cités ci dessus, de mieux cibler le comportement des utilisateurs et ainsi améliorer les expériences.\\
 
@@ -81,6 +81,8 @@ Pour fonctionner, le Machine Learning(ML) a besoin de données à ingérer et d'
 \end{center}
 
 La première famille, l'appentrissage supervisé (en jaune dans la figure 1.1) consiste à donner des données en entrées, le résultat attendu itéré sur un grand jeu de données afin de trouver le modèle. Pour que le modèle deviennent performant, on fournit un grand volume de données dans le but qu'il se rapproche du modèle attendu. Ce type de modèle nécessite donc une bonne connaissance du processus métier vu qu'il est nécessaire de fournir des jeux de données en entrée et le résultat désiré. Ce type d'algorithme est donc souvent utilisé pour simplifier ou optimiser des solutions existantes.\\
+
+Dans un exemple, en prenant un Input ????????
 
 La deuxième famille,l'apprentissage non-surpervisé (en bleu dans la figure 1.1) consiste à apprendre par identification des ressemblances et des différences entre les données fournies. L'algorithme rassemble les données en groupe ce qui permet lors de l'intégration d'une nouvelle information de la classifier dans un des groupes existants très rapidement. Ce type d'exemple a souvent pour objectif de créer des arbres de décisions sur base de "clustering".\\
 
@@ -117,9 +119,23 @@ On peut constater que ce type d'algorithme peut être très vite devenir énergi
 
 \section{Federated Learning}
 
-Notre époque fait face à deux défis importants en terme d'avencer technologique: les respects des données des utilisateurs et l'augmentation du volume des données. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisé sans son accord. Ensuite le silo des données met un frein à l'évolution de l'industrie moderne, c'est en ayant plus de données que l'on peut améliorer la qualité de la formation. Cependant le manque de données valides dans le domaine médical vient principalement du faite que les travailleurs doivent être expérimentés dans certains domaines comme celui de l'industrie médicale pour que la qualité des données soient au rendez vous.\\
+Notre époque fait face à deux défis importants en terme d'avencer technologique: \\
+1- les respects de la vie privée. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisé sans son accord.\\ 
+2- L'union fait la force, or, le traitement en silo des données de chaque entreprise frein énormement l'évolution des apprentissage de machine learning. en effet, en partageant les données entre different secteur, les algorithmes pourraient s'enrichir d'autre contexte afin de prendre de meilleur décision en fonction du besoin de chaque application.\\
+3- « Sans connaissance de son audience, et sans hypothèses préalables solides, la Big data ne sert à rien. » Benjamin Mercier, Responsable Digital Analytics, met en avant l'importance de la colecte des données. La masse d'information nécéssaire pour obtenir des apprentissages de qualité demande beaucoup de rigeur et d'expérience dans le domaine ciblé. Par exemple, comme précise l'article BLABLABLA, le secteur de BLABLABLA ne dispose pas de BLABLABLA \\
 
-C'est grâce au Federated Learning(FL) que l'essort de l'industrie a relevé ces défis. Le FL est un processus d'apprentissage automatique qui vise à exploiter les îlots de données tout en gardant la sécurité des données. Des clients sont coordonnées avec un ou plusieurs serveurs pour faciliter une décentralisation d'un appentrissage automatique. Le FL est lié aux deux concepts que nous avons vu précédements le Machine Learning et le Deep Learning, ce système distribué contient des calculs et des données tous les deux distribués. Le traitement distribué met en place plusieurs appareils connectés à différents endroits via un réseau de communication sous la surveillance d'un serveur centrale afin d'effectuer une partie de la même tâche pour l'accomplir. Le modèle distribué vise à améliorer l'étape de traitement comparer au FL qui lui se base sur un modèle collaboratif afin d'éviter des fuites de confidentialité.\\
+C'est grâce au Federated Learning(FL) que l'essort de l'industrie a relevé ces défis. Le FL est un processus d'apprentissage automatique qui vise à exploiter les îlots de données tout en gardant la sécurité des données. Des clients sont coordonnées avec un ou plusieurs serveurs pour faciliter une décentralisation d'un appentrissage automatique tel une architecture étoile. 
+
+Le FL est basé sur les deux concepts que nous avons vu précédements le Machine Learning et le Deep Learning.
+
+Les différents algos de ML et le DL effectuent des calculs basé sur leurs données de leur application. L'objectif du FL est de pouvoir agréger des information de diversse application, ou de différent acteurs afin de générer un modèle plus aboutie. Cette centralisation des données se fait généralement à l'aide d'n serveur centralisé comme le presente de schéma XXX de l'arclie des téléphones fig 4 avec comme exmple la collecte de données de smartphone :-D
+
+SCHEMA !!! 
+
+La pseudonyisation est donc un élement crutial pour le FL. L'article XXX met en avant telle ou telle techno avec tel ou tel avantage (BON CHANCE !!!)
+
+
+. Le traitement distribué met en place plusieurs appareils connectés à différents endroits via un réseau de communication sous la surveillance d'un serveur centrale afin d'effectuer une partie de la même tâche pour l'accomplir. Le modèle distribué vise à améliorer l'étape de traitement comparer au FL qui lui se base sur un modèle collaboratif afin d'éviter des fuites de confidentialité.\\
 
 Pour mieux comprendre son fonctionnement, le FL se déroule en plusieurs étapes, la formation fédérée est celle qui est la plus courante. Pour commencer, un appareil mobile se procure un modèle afin d'acquérir les données et les traiter en local. En second lieu, le modèle est subit à de multiple mises à jours régulières en local afin d'être amélioré, celles-ci contiennent des données locales qui appartiennent à différents appareils séparés. Ensuite, les appareils mobiles téléchargent des informations d'un champ de vecteurs présent dans un cloud. En troisième lieu, les modèles locaux effectuent une mise à jour moyenne au sein du cloud et est envoyé à un appareil défini comme le modèle mondial renouvelé. Pour finir, ces étapes précédentes se répètent afin d'arriver à un modèle avec une certaine performance ou qu'une date limite soit atteinte.
 
