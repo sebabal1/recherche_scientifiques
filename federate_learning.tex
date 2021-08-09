@@ -23,6 +23,7 @@
 \usepackage[final]{pdfpages}
 \usepackage{array}
 \usepackage{pdfpages}
+\usepackage{hyperref}
 
 \pagestyle{fancy}
 
@@ -80,7 +81,7 @@ Pour fonctionner, le Machine Learning(ML) a besoin de données à ingérer et d'
 	\label{fig1}
 \end{center}
 
-La première famille, l'appentrissage supervisé (en jaune dans la figure 1.1) consiste à donner des données en entrées, le résultat attendu itéré sur un grand jeu de données afin de trouver le modèle. Pour que le modèle deviennent performant, on fournit un grand volume de données dans le but qu'il se rapproche du modèle attendu. Ce type de modèle nécessite donc une bonne connaissance du processus métier vu qu'il est nécessaire de fournir des jeux de données en entrée et le résultat désiré. Ce type d'algorithme est donc souvent utilisé pour simplifier ou optimiser des solutions existantes.\\
+La première famille, l'appentrissage supervisé (en jaune dans la figure 1.1) consiste à donner des données en entrées, le résultat attendu itéré sur un grand jeu de données afin de trouver le modèle. Pour que le modèle deviennent performant, on fournit un grand volume de données dans le but qu'il se rapproche du modèle attendu. Ce type de modèle nécessite donc une bonne connaissance du processus métier vu qu'il est nécessaire de fournir des jeux de données en entrée pour obtenir le résultat désiré. Ce type d'algorithme est donc souvent utilisé pour simplifier ou optimiser des solutions existantes.\\
 
 Dans un exemple, en prenant un Input ????????
 
@@ -119,29 +120,94 @@ On peut constater que ce type d'algorithme peut être très vite devenir énergi
 
 \section{Federated Learning}
 
-Notre époque fait face à deux défis importants en terme d'avencer technologique: \\
-1- les respects de la vie privée. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisé sans son accord.\\ 
-2- L'union fait la force, or, le traitement en silo des données de chaque entreprise frein énormement l'évolution des apprentissage de machine learning. en effet, en partageant les données entre different secteur, les algorithmes pourraient s'enrichir d'autre contexte afin de prendre de meilleur décision en fonction du besoin de chaque application.\\
-3- « Sans connaissance de son audience, et sans hypothèses préalables solides, la Big data ne sert à rien. » Benjamin Mercier, Responsable Digital Analytics, met en avant l'importance de la colecte des données. La masse d'information nécéssaire pour obtenir des apprentissages de qualité demande beaucoup de rigeur et d'expérience dans le domaine ciblé. Par exemple, comme précise l'article BLABLABLA, le secteur de BLABLABLA ne dispose pas de BLABLABLA \\
+Avec la digitalisation des données et l'augmentation du nombre d'individus sur notre planète, on fait face à de nouvelles défis pour l'utilisation de toutes ces données présentes sur Internet. C'est pour cette raison que notre époque fait face à deux défis importants en terme d'avancer technologique: \\
+\begin{enumerate}
+\item Le respect de la vie privée. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisé sans son accord.
+\item L'union fait la force, or, le traitement en silo des données de chaque entreprise frein énormement l'évolution des apprentissage de machine learning. en effet, en partageant les données entre differents secteurs, les algorithmes pourraient s'enrichir dans d'autres contextes afin de prendre de meilleurs décisions en fonction du besoin de chaque application.
+\end{enumerate}
+Comme dit Benjamin Merci, Responsable Digital Analytics : « Sans connaissance de son audience, et sans hypothèses préalables solides, la Big data ne sert à rien». Il met ainsi en avant l'importance de la colecte des données. La masse d'information nécéssaire pour obtenir des apprentissages de qualité demande beaucoup de rigeur et d'expérience dans le domaine ciblé.\\
 
-C'est grâce au Federated Learning(FL) que l'essort de l'industrie a relevé ces défis. Le FL est un processus d'apprentissage automatique qui vise à exploiter les îlots de données tout en gardant la sécurité des données. Des clients sont coordonnées avec un ou plusieurs serveurs pour faciliter une décentralisation d'un appentrissage automatique tel une architecture étoile. 
+En effet, le Federated Learning peut se composer en deux familles bien disctinctes :
+\begin{enumerate}
+\item La première est celle qui partage ses données sur un serveur distribué.
+\item La seconde est celle qui partage son modèle avec d'autre partissipants.
+\end{enumerate}
 
-Le FL est basé sur les deux concepts que nous avons vu précédements le Machine Learning et le Deep Learning.
-
-Les différents algos de ML et le DL effectuent des calculs basé sur leurs données de leur application. L'objectif du FL est de pouvoir agréger des information de diversse application, ou de différent acteurs afin de générer un modèle plus aboutie. Cette centralisation des données se fait généralement à l'aide d'n serveur centralisé comme le presente de schéma XXX de l'arclie des téléphones fig 4 avec comme exmple la collecte de données de smartphone :-D
-
-SCHEMA !!! 
-
-La pseudonyisation est donc un élement crutial pour le FL. L'article XXX met en avant telle ou telle techno avec tel ou tel avantage (BON CHANCE !!!)
+Pour commencer, la première méthode se rapproche des modèles précendents comme le ML et le DL. Elle a besoin d'un large éventail de données pour pouvoir améliorer son échantillonage et ressortir des données suivant un besoin spécifier au niveau du modèle. Son fonctionnement se constitue dans notre cas de mise à disposition de plusieurs appareils(smarphone) connectés sur un réseau à un serveur centrale.
 
 
-. Le traitement distribué met en place plusieurs appareils connectés à différents endroits via un réseau de communication sous la surveillance d'un serveur centrale afin d'effectuer une partie de la même tâche pour l'accomplir. Le modèle distribué vise à améliorer l'étape de traitement comparer au FL qui lui se base sur un modèle collaboratif afin d'éviter des fuites de confidentialité.\\
+
+
+Le traitement distribué met en place plusieurs appareils connectés à différents endroits via un réseau de communication sous la surveillance d'un serveur centrale afin d'effectuer une partie de la même tâche pour l'accomplir. Le modèle distribué vise à améliorer l'étape de traitement comparer au FL qui lui se base sur un modèle collaboratif afin d'éviter des fuites de confidentialité.\\
 
 Pour mieux comprendre son fonctionnement, le FL se déroule en plusieurs étapes, la formation fédérée est celle qui est la plus courante. Pour commencer, un appareil mobile se procure un modèle afin d'acquérir les données et les traiter en local. En second lieu, le modèle est subit à de multiple mises à jours régulières en local afin d'être amélioré, celles-ci contiennent des données locales qui appartiennent à différents appareils séparés. Ensuite, les appareils mobiles téléchargent des informations d'un champ de vecteurs présent dans un cloud. En troisième lieu, les modèles locaux effectuent une mise à jour moyenne au sein du cloud et est envoyé à un appareil défini comme le modèle mondial renouvelé. Pour finir, ces étapes précédentes se répètent afin d'arriver à un modèle avec une certaine performance ou qu'une date limite soit atteinte.
 
 Le FL est capable de traiter des données partionnées horizontalement suivant des echantillons mais aussi de façon verticale suivant les caractéristiques du modèle d'apprentissage.
 
-En quelques mots, c'est un apprentissage automatique distribué qui permet d'entraîner un modèle mathématique avec un large groupe de données décentralisées qui se trouvent sur des appareils distants. 
+En quelques mots, c'est un apprentissage automatique distribué qui permet d'entraîner un modèle mathématique avec un large groupe de données décentralisées qui se trouvent sur des appareils distants.
+
+Par exemple, comme précise l'article "Big and Personal: data and models behind Netflix recommendations", le secteur du multimédia dispose de plusieurs données sur nos habitudes et nos préférences en terme de choix de visionnage. L'un des plus connu est Netflix, en effet cette société utilise nos données pour nous suggérer des choix parmis un large éventail de séries et de films. Ceux-ci se basent sur nos historiques, nos choix du moment, une autre de leur fonctionnalité est de partager les séries/films que nos amis aiment. Ainsi l'utilisateur pourra être diriger vers un visionnage qui pourra lui plaire. C'est l'un des exemples qui est présenté ici mais on peut imaginer plus loin cette utilisation. C'est pour cette raison que l'industrie a un enjeux capital dans tous ces ilots de données.\\
+
+L'esssort de l'industrie vient de l'utilisation du Federated Learning(FL) et c'est ainsi qu'elle a reussis à relever ces défis. L'utilisation d'îlots de données est la clé pour ces industries car le FL utilise un processus d'apprentissage automatique qui utilisent ces gros îlots. Cellui-ci utilise les concepts du ML et du DL pour pouvoir travailler avec ces grands échantillonnages de données. Des algorithmes de ML et de DL effectuent des calculs basé sur leur données de leur application. L'objectif du FL est de pouvoir agréger des informations de diversses applications, ou de différents acteurs afin de générer un modèle plus aboutie. Cette centralisation des données se fait généralement à l'aide d'un serveur centralisé comme le présente de schéma 1.3. Les données sont ainsi distribuées mais il reste la question de la privatisation des données et c'est là qu'intervient la pseudonymisation des données.
+ 
+
+\begin{center}
+	\includegraphics[scale=0.3]{mobile_schema_fl}
+	\captionof{figure}{Schema FL}
+	\label{fig1}
+\end{center}
+
+La pseudonymisation est un élement crutial pour le FL. L'article "Extractop et gestion des connaissances" met en avant l'utilité de la pseudonymisation en montrant la conservation d'informations sensibles à des fins scientifiques ou pour affiner des statistiques suivant un besoin. La méthode la plus courant pour la pseudonymisation est l'utilisation d'un chiffrement, cette méthode utilise un identifiant et un quasi-identifiant et les remplaces par d'autres chiffres ce qui rend l'identité cachée tout en rendant possible de ré-identification des informations en ayant la bonne clé de déchiffrement. Le schéma 1.4 montre le fonctionnement du chiffrement d'une pseudonymisation.\\
+
+\begin{center}
+	\includegraphics[scale=0.7]{pseudo}
+	\captionof{figure}{Pseudonymisation}
+	\label{fig1}
+\end{center}
+
+
+
+
+Des clients sont coordonnées avec un ou plusieurs serveurs pour faciliter une décentralisation d'un appentrissage automatique tel une architecture étoile.
+
+
+
+
+
+
+La deuxième famille est celle qui partage leur modèle pour augmenter la rapidité des algorithmes.\\ 
+
+Dans un second temps, celle qui partage ces modèles doit faire attention de ne pas divulger des informations sensibles avec un protection des données. Cette famille partage son modèle de prise de décision, ainsi comme nous montre l'article "Federated Learning, Synthesis Lectures on Artificial Intelligence and Machine Learning", des entreprises on décider de partager leur modèles à des fins de détection d'objets. Ils forment ainsi un ensemble de modèles puissent dans le but de répondre rapidement aux demandes des clients. Le travail des modèles est illustré à la fig 1.5.
+
+\begin{enumerate}
+\item Chaque participant va rechercher sur le serveur le modèle de détection d'objet.
+\item Chaque participant utilise le modèle sur leur donnée en iterne.
+\item Chaque participant envoie ses paramètres sur le serveur via un protocole sécuriser.
+\item Le serveur utilise les paramètres du modèle de chaque participants et met à jours son propre modèle de détection d'objet.
+\end{enumerate}
+
+\begin{center}
+	\includegraphics[scale=0.4]{fl_model_partage}
+	\captionof{figure}{Modele partager}
+	\label{fig1}
+\end{center}
+
+
+	
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+ 
 
 \pagebreak
 
@@ -240,6 +306,16 @@ C'est pour cette raison, que les institutions médicales doivent partagé leur d
 	  Morgan and Claypool publishers,
 	  Series Editors
 	  December 2019
+	  
+	  \bibitem{Netflix}
+	  Xavier Amatriain
+	  \emph{\LaTeX: Big and Personal: data and models behind Netflix recommendations}.
+	  Augustus 2013
+	  
+	  \bibitem{pseudonomysation}
+	  Jérôme Azé
+	  \emph{\LaTeX: Extractop, et gestion des connaissances}
+	  \url{https://books.google.fr/books?hl=fr&lr=&id=dOEaEAAAQBAJ&oi=fnd&pg=PA419&dq=pseudonymisation+des+donn%C3%A9es&ots=EBRSMlwkfU&sig=Ss5Ik0PWRg_lR8K7-MVDwXPf2jA&redir_esc=y#v=onepage&q=pseudonymisation%20des%20donn%C3%A9es&f=false}
 	  
 	\bibitem{bigdata}
 	Pour la partie sur le Machine Learning https://www.lebigdata.fr/machine-learning-et-big-data
