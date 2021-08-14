@@ -92,7 +92,8 @@ En prenant l'algorithme de l'arbre de classification et de régression, on peut 
 \end{center}
 
 
-La deuxième famille,l'apprentissage non-surpervisé (en bleu dans la figure 1.1) consiste à apprendre par identification des ressemblances et des différences entre les données fournies. L'algorithme rassemble les données en groupe ce qui permet lors de l'intégration d'une nouvelle information de la classifier dans un des groupes existants très rapidement. Ce type d'exemple a souvent pour objectif de créer des arbres de décisions sur base de "clustering".\\
+La deuxième famille,l'apprentissage non-surpervisé (en bleu dans la figure 1.1) consiste à apprendre par identification des ressemblances et des différences entre les données fournies. L'algorithme rassemble les données en groupe ce qui permet lors de l'intégration d'une nouvelle information de la classifier dans un des groupes existants très rapidement. Ce type d'exemple a souvent pour objectif de créer des arbres de décisions sur base de "clustering".
+L'un des plus connus est le partionnement k-means, c'est un algorithme qui met en place un centre de gravité, dont les coordonnées vont servir pour localiser cette zone. Pour mieux comprendre l'algorithme, la notation $c^{(i)}$ représente la partition de point i et $u_j$ le centre de la partition j.\\
 
 Pour finir, il existe une catégorie qui gère sa propre expérience. En effet, l'apprentissage par renforcement (en rouge dans la figure 1.1) consiste à générer ses propres expériences. On se rapproche de l'automobile autonome, la machine change ses états suivant les actions qu'elle entreprend de faire. Un système de récompense positive et négative est mis en place pour constituer une nouvelle expérience et rendre la machine attentive pour maximiser ses chances de réussite. Ce type d'approche est la plus générique, elle convient aussi bien pour optimiser des solutions existantes que pour classifier des données. En règle générale, cette approche est souvent utilisée pour des recherches exploratoires. L'inconvénient principal de cettre approche scientifique est son besoin de ressources. En effet, les combinatoires peuvent très vites être importantes et pas conséquence, l'exploration aura besoin de temps ou de ressources physiques pour les tester.\\
 
@@ -122,7 +123,7 @@ Voici un schéma pour l'exemple du fonctionnement du DL,[fig2.1], les boules ver
 	\label{fig1}
 \end{center}
 
-Les avantages de cette méthode sont qu'elle permet de sortir une bonne qualité sur des résultats obtenus. Elle permet aussi d'avoir une meilleure exécution sur des tâches de routine tout en gardant de très bon résultat car traiter des données non structurées n'est pas chose aisée. Pourtant même avec des documents, des photos, des mails, elle arrive a sotcké des informations sous ces formats désordonnés. Cela montre bien la puissance du Deep Learning.
+Les avantages de cette méthode sont qu'elle permet de sortir une bonne qualité sur des résultats obtenus. Elle permet aussi d'avoir une meilleure exécution sur des tâches de routine tout en gardant de très bon résultat car traiter des données non structurées n'est pas chose aisée. Pourtant même avec des documents, des photos, des mails, elle arrive a sotcké des informations sous ces formats désordonnés. Cela montre bien la puissance du Deep Learning.\\
 
 Bien entendu, il y a aussi des désavantage,on peut constater que ce type de modèle peut devenir très vite énergivore. De plus, le DL se focalise principalement sur une application. Or, il peut être intéressant d'étudier plusieurs applications similaires afin d'identifier des modèles plus poussés. C'est dans ce contexte que nous allons introduire le Federated Learning.
 
@@ -326,6 +327,9 @@ C'est pour cette raison, que les institutions médicales doivent partagé leur d
 	  
 	\bibitem{bigdata}
 	Pour la partie sur le Machine Learning https://www.lebigdata.fr/machine-learning-et-big-data
+	
+	\bibitem{ML Non superviser}
+	\url{https://stanford.edu/~shervine/l/fr/teaching/cs-229/pense-bete-apprentissage-non-supervise}
 
 \end{thebibliography}
 
