@@ -64,14 +64,14 @@
 \thispagestyle{empty} % Ignore page number
 
 \fancyfoot[C]{Master en Science infomatique - Lecture et rédaction scientifique}
-\fancyfoot[R]{\thepage}
+%\fancyfoot[R]{\thepage}
 
 \chapter{Concepts}
 \section{Machine Learning}
 \thispagestyle{plain}\setcounter{page}{1} % Start page count
 Le Machine Learning appelé en Français apprentissage automatique "[...] est un champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques pour donner aux ordinateurs la capacité d'apprendre à partir de données[...]".Ceci a pour objectif de traiter l'information afin de lui donner de la valeur ajoutée.\\
 
-De nos jours, le Machine Learning est présent partout sur la toile, cela va du moteur de recherche comme Google, aux assistants vocaux comme Siri et Alexa, les fil d'actualités des réseaux sociaux comme Facebook et Twitter. Le point commun entre toutes ces platformes et le stockage massif des données de leur utilisateur appelé Big Data [x: ?]. Le Big Data est une technologie apparue dans les années 1900, a permis l'essor de l'apprentissage automatique, le Machine Learning. En effet, cet imposant volume de données collectées sur les utilisateurs a permis, dans les exemples cités ci dessus, de mieux cibler le comportement des utilisateurs et ainsi améliorer les expériences.\\
+De nos jours, le Machine Learning est présent partout sur la toile, cela va du moteur de recherche comme Google, aux assistants vocaux comme Siri et Alexa, les fil d'actualités des réseaux sociaux comme Facebook et Twitter. Le point commun entre toutes ces platformes et le stockage massif des données de leur utilisateur appelé Big Data, comme le site le dictionnaire Larousse, "c'est un domaine technologique dédié à l'analyse de très grands volumes de données informatiques". Le Big Data est une technologie apparue dans les années 1900, elle a permis l'essor de l'apprentissage automatique, le Machine Learning. En effet, cet imposant volume de données collectées sur les utilisateurs a permis, dans les exemples cités ci dessus, de mieux cibler le comportement des utilisateurs et ainsi améliorer les expériences.\\
 
 Pour fonctionner, le Machine Learning(ML) a besoin de données à ingérer et d'avoir un modèle appris afin de fournir des données à valeur ajoutée comme des algorithmes de prédiction de bourse et la maintenance prédictive. Il est donc nécessaire d'identifier les approches techniques pour créer ces modèles de ML.\\
 
@@ -81,9 +81,16 @@ Pour fonctionner, le Machine Learning(ML) a besoin de données à ingérer et d'
 	\label{fig1}
 \end{center}
 
-La première famille, l'appentrissage supervisé (en jaune dans la figure 1.1) consiste à donner des données en entrées, le résultat attendu itéré sur un grand jeu de données afin de trouver le modèle. Pour que le modèle deviennent performant, on fournit un grand volume de données dans le but qu'il se rapproche du modèle attendu. Ce type de modèle nécessite donc une bonne connaissance du processus métier vu qu'il est nécessaire de fournir des jeux de données en entrée pour obtenir le résultat désiré. Ce type d'algorithme est donc souvent utilisé pour simplifier ou optimiser des solutions existantes.\\
+La première famille, l'appentrissage supervisé (en jaune dans la figure 1.1) consiste à donner des données en entrées, le résultat attendu itéré sur un grand jeu de données afin de trouver le modèle. Pour que le modèle deviennent performant, on fournit un grand volume de données dans le but qu'il se rapproche du modèle attendu. Ce type de modèle nécessite donc une bonne connaissance du processus métier vu qu'il est nécessaire de fournir des jeux de données en entrée pour obtenir le résultat désiré. Ce type de modèle est donc souvent utilisé pour simplifier ou optimiser des solutions existantes.\\
 
-Dans un exemple, en prenant un Input ????????
+En prenant l'algorithme de l'arbre de classification et de régression, on peut constater que les données suivent un chemin qui a été défini au préalable par un développeur. Dans la fig 1.2, on peut remarquer le cheminement de l'algorithme sur un jeu de données.
+
+\begin{center}
+	\includegraphics[scale=0.5]{ML_superviser}
+	\captionof{figure}{Abre de classiffication et de régression}
+	\label{fig1}
+\end{center}
+
 
 La deuxième famille,l'apprentissage non-surpervisé (en bleu dans la figure 1.1) consiste à apprendre par identification des ressemblances et des différences entre les données fournies. L'algorithme rassemble les données en groupe ce qui permet lors de l'intégration d'une nouvelle information de la classifier dans un des groupes existants très rapidement. Ce type d'exemple a souvent pour objectif de créer des arbres de décisions sur base de "clustering".\\
 
@@ -115,17 +122,19 @@ Voici un schéma pour l'exemple du fonctionnement du DL,[fig2.1], les boules ver
 	\label{fig1}
 \end{center}
 
-On peut constater que ce type d'algorithme peut être très vite devenir énergivore. De plus, le DL se focalise principalement sur une application. Or, il peut être intéressant d'étudier plusieurs applications similaires afin d'identifier des modèles plus poussés. C'est dans ce contexte que nous allons introduire le Federated Learning.
+Les avantages de cette méthode sont qu'elle permet de sortir une bonne qualité sur des résultats obtenus. Elle permet aussi d'avoir une meilleure exécution sur des tâches de routine tout en gardant de très bon résultat car traiter des données non structurées n'est pas chose aisée. Pourtant même avec des documents, des photos, des mails, elle arrive a sotcké des informations sous ces formats désordonnés. Cela montre bien la puissance du Deep Learning.
+
+Bien entendu, il y a aussi des désavantage,on peut constater que ce type de modèle peut devenir très vite énergivore. De plus, le DL se focalise principalement sur une application. Or, il peut être intéressant d'étudier plusieurs applications similaires afin d'identifier des modèles plus poussés. C'est dans ce contexte que nous allons introduire le Federated Learning.
 
 
 \section{Federated Learning}
 
-Avec la digitalisation des données et l'augmentation du nombre d'individus sur notre planète, on fait face à de nouvelles défis pour l'utilisation de toutes ces données présentes sur Internet. C'est pour cette raison que notre époque fait face à deux défis importants en terme d'avancer technologique: \\
+Avec la digitalisation des données et l'augmentation du nombre d'individus sur notre planète, on fait face à de nouveaux défis pour l'utilisation de toutes ces données présentes sur Internet. C'est pour cette raison que notre époque fait face à deux défis importants en terme d'avancer technologique: \\
 \begin{enumerate}
-\item Le respect de la vie privée. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisé sans son accord.
-\item L'union fait la force, or, le traitement en silo des données de chaque entreprise frein énormement l'évolution des apprentissage de machine learning. en effet, en partageant les données entre differents secteurs, les algorithmes pourraient s'enrichir dans d'autres contextes afin de prendre de meilleurs décisions en fonction du besoin de chaque application.
+\item Le respect de la vie privée. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisé sans l'accord de son propriétaire.
+\item L'union fait la force, or, le traitement en silo des données de chaque entreprise freine énormement l'évolution des apprentissages de machine learning. En effet, en partageant les données entre differents secteurs, les algorithmes pourraient s'enrichir dans d'autres contextes afin de prendre de meilleurs décisions en fonction du besoin de chaque application.
 \end{enumerate}
-Comme dit Benjamin Merci, Responsable Digital Analytics : « Sans connaissance de son audience, et sans hypothèses préalables solides, la Big data ne sert à rien». Il met ainsi en avant l'importance de la colecte des données. La masse d'information nécéssaire pour obtenir des apprentissages de qualité demande beaucoup de rigeur et d'expérience dans le domaine ciblé.\\
+Comme dit Benjamin Merci, Responsable Digital Analytics : « Sans connaissance de son audience, et sans hypothèses préalables solides, la Big data ne sert à rien». Il met ainsi en avant l'importance de la collecte des données. La masse d'information nécéssaire pour obtenir des apprentissages de qualité demande beaucoup de rigeur et d'expérience dans le domaine ciblé.\\
 
 En effet, le Federated Learning peut se composer en deux familles bien disctinctes :
 \begin{enumerate}
@@ -133,7 +142,14 @@ En effet, le Federated Learning peut se composer en deux familles bien disctinct
 \item La seconde est celle qui partage son modèle avec d'autre partissipants.
 \end{enumerate}
 
-Pour commencer, la première méthode se rapproche des modèles précendents comme le ML et le DL. Elle a besoin d'un large éventail de données pour pouvoir améliorer son échantillonage et ressortir des données suivant un besoin spécifier au niveau du modèle. Son fonctionnement se constitue dans notre cas de mise à disposition de plusieurs appareils(smarphone) connectés sur un réseau à un serveur centrale.
+Pour commencer, la première méthode se rapproche des modèles précendents comme le ML et le DL. Elle a besoin d'un large éventail de données pour pouvoir améliorer son échantillonage et ressortir des données suivant un besoin spécifier au niveau du modèle. 
+
+
+
+
+
+
+Son fonctionnement se constitue dans notre cas de mise à disposition de plusieurs appareils(smartphone) connectés sur un réseau à un serveur centrale.
 
 
 
@@ -193,21 +209,6 @@ Dans un second temps, celle qui partage ces modèles doit faire attention de ne 
 \end{center}
 
 
-	
-
-
-
-
-
-
-
-
- 
-
- 
-
-
- 
 
 \pagebreak
 
@@ -316,6 +317,12 @@ C'est pour cette raison, que les institutions médicales doivent partagé leur d
 	  Jérôme Azé
 	  \emph{\LaTeX: Extractop, et gestion des connaissances}
 	  \url{https://books.google.fr/books?hl=fr&lr=&id=dOEaEAAAQBAJ&oi=fnd&pg=PA419&dq=pseudonymisation+des+donn%C3%A9es&ots=EBRSMlwkfU&sig=Ss5Ik0PWRg_lR8K7-MVDwXPf2jA&redir_esc=y#v=onepage&q=pseudonymisation%20des%20donn%C3%A9es&f=false}
+	  
+	  \bibitem{Machine Learning Supervised}
+	  \url{https://analyticsinsights.io/5-apprentissage-supervise/}
+		  
+	  \bibitem{Deep Learning}
+	  \url {https://www.retengr.com/2021/01/22/deep-learning-definitions-applications-avantages-inconvenients/}
 	  
 	\bibitem{bigdata}
 	Pour la partie sur le Machine Learning https://www.lebigdata.fr/machine-learning-et-big-data

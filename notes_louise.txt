@@ -1,0 +1,34 @@
+2 grandes familles
+1)	Partage de données + ML ou DL pour partage modèle d’apprentissage -> FL simple
++ Complexe données similaires (article 1 donner tel similaire) interopérable ex : nom et label et bien anomymisé ou pseudo => très similaire au ML ou DL now.
+Inconvénient :
+-	on partage les données ! sensibles.
+-	Perte anonymat sur les données.
+Anomymisé -> article
+2)	Partage modèle d’apprentissage 
+Objectif ne pas partager données -> conserver priver
+	Partager juste modèle de prise de décision 
+Contexte : 
+-	21 approches 1 modèle différent.
+-	Approche 2 modèle réseaux neurones identiques
+
+
+https://books.google.fr/books?hl=fr&lr=&id=dOEaEAAAQBAJ&oi=fnd&pg=PA419&dq=pseudonymisation+des+donn%C3%A9es&ots=EBRSMlwkfU&sig=Ss5Ik0PWRg_lR8K7-MVDwXPf2jA&redir_esc=y#v=onepage&q=pseudonymisation%20des%20donn%C3%A9es&f=false
+
+
+2.1) 
+Idée partagé résultat + crée pondérant pour réaliser le modèle de décision 
+Exemple : Chaque modèle de décision forme 1 arbre et FL serait 1 parcourt de ? Arbre de décisions rondon Forest 
+Modèle son arbre de décision.
+
+Pridict bourse 
+Avantage : chaque entreprise master modèle et donner.
+Now -> différentes pistes explo modèle neuronale identique mais ou lieu de pondéré le résultat de chaque modèle chaque nœud réseau sera pondéré en ? des autres modèles appris.
+Avantage et 1 convengeance + fast -> résultat les + rapides.
+Inconvénient : 
+-	L’entreprise n’est plus maitre modèle car modèle doit être adapter au consontomme regroupement d’entreprise.
+-	Article sur différentes méthodes de pondérant
+
+
+2.1 et 2.2. : regrouper poids et résultats réseaux. 
+

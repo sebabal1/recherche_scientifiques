@@ -1,17 +1,17 @@
 \babel@toc {french}{}
 \contentsline {chapter}{\numberline {1}Concepts}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Machine Learning}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Deep Learning}{3}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Mod\IeC {\`e}le d'entra\IeC {\^\i }nement}{4}{subsection.1.2.1}
-\contentsline {section}{\numberline {1.3}Federated Learning}{5}{section.1.3}
-\contentsline {chapter}{\numberline {2}Technologies existantes (Framework)}{9}{chapter.2}
-\contentsline {subsection}{\numberline {2.0.1}TensorFlow Federated (TFF)}{9}{subsection.2.0.1}
-\contentsline {subsection}{\numberline {2.0.2}Federated AI Technology Enabler (FATE)}{9}{subsection.2.0.2}
-\contentsline {chapter}{\numberline {3}Cat\IeC {\'e}gorisation}{10}{chapter.3}
-\contentsline {subsection}{\numberline {3.0.1}Horizontal FL}{10}{subsection.3.0.1}
-\contentsline {subsection}{\numberline {3.0.2}Vertical FL}{11}{subsection.3.0.2}
-\contentsline {subsection}{\numberline {3.0.3}Federated Transfer Learning (FTL)}{12}{subsection.3.0.3}
-\contentsline {chapter}{\numberline {4}Exemples d'utilisations}{13}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.1}La Finance}{13}{subsection.4.0.1}
-\contentsline {subsection}{\numberline {4.0.2}La sant\IeC {\'e}}{14}{subsection.4.0.2}
-\contentsline {chapter}{\numberline {A}Annexe}{17}{appendix.A}
+\contentsline {section}{\numberline {1.2}Deep Learning}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Mod\IeC {\`e}le d'entra\IeC {\^\i }nement}{5}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Federated Learning}{6}{section.1.3}
+\contentsline {chapter}{\numberline {2}Technologies existantes (Framework)}{11}{chapter.2}
+\contentsline {subsection}{\numberline {2.0.1}TensorFlow Federated (TFF)}{11}{subsection.2.0.1}
+\contentsline {subsection}{\numberline {2.0.2}Federated AI Technology Enabler (FATE)}{11}{subsection.2.0.2}
+\contentsline {chapter}{\numberline {3}Cat\IeC {\'e}gorisation}{12}{chapter.3}
+\contentsline {subsection}{\numberline {3.0.1}Horizontal FL}{12}{subsection.3.0.1}
+\contentsline {subsection}{\numberline {3.0.2}Vertical FL}{13}{subsection.3.0.2}
+\contentsline {subsection}{\numberline {3.0.3}Federated Transfer Learning (FTL)}{14}{subsection.3.0.3}
+\contentsline {chapter}{\numberline {4}Exemples d'utilisations}{15}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.1}La Finance}{15}{subsection.4.0.1}
+\contentsline {subsection}{\numberline {4.0.2}La sant\IeC {\'e}}{16}{subsection.4.0.2}
+\contentsline {chapter}{\numberline {A}Annexe}{19}{appendix.A}
