@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  15 AUG 2021 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.2.7)  15 AUG 2021 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,6 +786,15 @@ LaTeX Warning: Label `fig1' multiply defined.
 
 LaTeX Warning: Label `fig1' multiply defined.
 
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
 )
 \openout1 = `federate_learning.aux'.
 
@@ -998,8 +1007,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
+<./images/algo_k_means.png, id=114, 622.325pt x 194.7275pt>
+File: ./images/algo_k_means.png Graphic file (type png)
+<use ./images/algo_k_means.png>
+Package pdftex.def Info: ./images/algo_k_means.png  used on input line 105.
+(pdftex.def)             Requested size: 311.16173pt x 97.3635pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 106.
+See the caption package documentation for explanation.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <./images/ML_superviser.png> <./images/algo_k_means.png>]
+<./images/k_means.png, id=126, 1126.2075pt x 385.44pt>
+File: ./images/k_means.png Graphic file (type png)
+<use ./images/k_means.png>
+Package pdftex.def Info: ./images/k_means.png  used on input line 113.
+(pdftex.def)             Requested size: 450.47502pt x 154.17326pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 114.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (60.47502pt too wide) in paragraph at lines 113--114
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
@@ -1009,45 +1056,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3 <./images/ML_superviser.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+[4 <./images/k_means.png>]
+Chapitre 2.
+[5
 
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4]
-<./images/deep_learning_schema.png, id=128, 723.70375pt x 492.84125pt>
+]
+<./images/deep_learning_schema.png, id=138, 723.70375pt x 492.84125pt>
 File: ./images/deep_learning_schema.png Graphic file (type png)
 <use ./images/deep_learning_schema.png>
 Package pdftex.def Info: ./images/deep_learning_schema.png  used on input line 
-127.
+139.
 (pdftex.def)             Requested size: 289.47636pt x 197.133pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 128.
+(caption)                particular \caption on input line 140.
 See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5 <./images/deep_learning_schema.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
@@ -1055,25 +1079,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
  []
 
 
-Overfull \hbox (12.53047pt too wide) in paragraph at lines 152--153
-[]\OT1/cmr/m/n/12 Pour com-men-cer, la premi^^Rere m^^Sethode se rap-proche des
- mod^^Reles pr^^Secendents
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
+ Make it at least 15.71667pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
-Overfull \hbox (15.59718pt too wide) in paragraph at lines 164--165
-[]\OT1/cmr/m/n/12 Le trai-te-ment dis-tribu^^Se met en place plu-sieurs ap-pa-r
-eils connect^^Ses ^^Ra diff^^Serents
+[6 <./images/deep_learning_schema.png>]
+Chapitre 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
  []
 
+[7
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
@@ -1083,134 +1104,132 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
+
+ []
+
+<./images/pseudo.png, id=153, 278.03876pt x 237.88875pt>
+File: ./images/pseudo.png Graphic file (type png)
+<use ./images/pseudo.png>
+Package pdftex.def Info: ./images/pseudo.png  used on input line 180.
+(pdftex.def)             Requested size: 194.6258pt x 166.52098pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 181.
+See the caption package documentation for explanation.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
+ Make it at least 15.71667pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
-<./images/mobile_schema_fl.png, id=148, 1438.37375pt x 363.3575pt>
+[8]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 15.71667pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./images/pseudo.png>]
+<./images/fl_model_partage.png, id=167, 883.3pt x 521.95pt>
+File: ./images/fl_model_partage.png Graphic file (type png)
+<use ./images/fl_model_partage.png>
+Package pdftex.def Info: ./images/fl_model_partage.png  used on input line 201.
+
+(pdftex.def)             Requested size: 353.31374pt x 208.77629pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 202.
+See the caption package documentation for explanation.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 15.71667pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./images/fl_model_partage.png>]
+<./images/mobile_schema_fl.png, id=179, 1438.37375pt x 363.3575pt>
 File: ./images/mobile_schema_fl.png Graphic file (type png)
 <use ./images/mobile_schema_fl.png>
-Package pdftex.def Info: ./images/mobile_schema_fl.png  used on input line 178.
+Package pdftex.def Info: ./images/mobile_schema_fl.png  used on input line 211.
 
 (pdftex.def)             Requested size: 431.51546pt x 109.00809pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 179.
+(caption)                particular \caption on input line 212.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (41.51546pt too wide) in paragraph at lines 178--179
+Overfull \hbox (41.51546pt too wide) in paragraph at lines 211--212
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-<./images/pseudo.png, id=149, 278.03876pt x 237.88875pt>
-File: ./images/pseudo.png Graphic file (type png)
-<use ./images/pseudo.png>
-Package pdftex.def Info: ./images/pseudo.png  used on input line 186.
-(pdftex.def)             Requested size: 194.6258pt x 166.52098pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 187.
-See the caption package documentation for explanation.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8 <./images/mobile_schema_fl.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-<./images/fl_model_partage.png, id=156, 883.3pt x 521.95pt>
-File: ./images/fl_model_partage.png Graphic file (type png)
-<use ./images/fl_model_partage.png>
-Package pdftex.def Info: ./images/fl_model_partage.png  used on input line 213.
-
-(pdftex.def)             Requested size: 353.31374pt x 208.77629pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 214.
-See the caption package documentation for explanation.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9 <./images/pseudo.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10 <./images/fl_model_partage.png>]
-Chapitre 2.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 223.
-
-
-Overfull \hbox (12.59444pt too wide) in paragraph at lines 225--226
-[]\OT1/cmr/m/n/12 Les fra-me-works ne manquent pas pour ma-ni-pu-ler des mod^^R
-eles math^^Sematique
- []
-
-[11
-
-]
-Chapitre 3.
-
-Overfull \hbox (5.47379pt too wide) in paragraph at lines 231--232
+Overfull \hbox (5.47379pt too wide) in paragraph at lines 218--219
 []\OT1/cmr/m/n/12 Le FL est ca-ract^^Seris^^Se par trois grands groupes qui sur
 -vien-net r^^Seguli^^Rerement,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 233.
-
-
-Overfull \hbox (25.0318pt too wide) in paragraph at lines 235--236
+Overfull \hbox (25.0318pt too wide) in paragraph at lines 222--223
 \OT1/cmr/m/n/12 malgr^^Se le fait que les donn^^Sees ne sont pas sem-blables su
 r l'es-pace d'^^Sechantillonnage.
  []
 
-<./images/fl_horizontal.png, id=179, 1353.055pt x 738.76pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 15.71667pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <./images/mobile_schema_fl.png>]
+<./images/fl_horizontal.png, id=186, 1353.055pt x 738.76pt>
 File: ./images/fl_horizontal.png Graphic file (type png)
 <use ./images/fl_horizontal.png>
-Package pdftex.def Info: ./images/fl_horizontal.png  used on input line 238.
+Package pdftex.def Info: ./images/fl_horizontal.png  used on input line 225.
 (pdftex.def)             Requested size: 270.6062pt x 147.74937pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 239.
+(caption)                particular \caption on input line 226.
 See the caption package documentation for explanation.
 
-[12
-
-]
-<./images/fl_vertical.png, id=184, 1320.935pt x 674.52pt>
+<./images/fl_vertical.png, id=187, 1320.935pt x 674.52pt>
 File: ./images/fl_vertical.png Graphic file (type png)
 <use ./images/fl_vertical.png>
-Package pdftex.def Info: ./images/fl_vertical.png  used on input line 249.
+Package pdftex.def Info: ./images/fl_vertical.png  used on input line 236.
 (pdftex.def)             Requested size: 264.18231pt x 134.90161pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 237.
+See the caption package documentation for explanation.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 15.71667pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./images/fl_horizontal.png>]
+<./images/fl_distribute.png, id=194, 1173.38374pt x 577.15625pt>
+File: ./images/fl_distribute.png Graphic file (type png)
+<use ./images/fl_distribute.png>
+Package pdftex.def Info: ./images/fl_distribute.png  used on input line 249.
+(pdftex.def)             Requested size: 234.67259pt x 115.4292pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1223,17 +1242,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./images/fl_horizontal.png> <./images/fl_vertical.png>]
-<./images/fl_distribute.png, id=193, 1173.38374pt x 577.15625pt>
-File: ./images/fl_distribute.png Graphic file (type png)
-<use ./images/fl_distribute.png>
-Package pdftex.def Info: ./images/fl_distribute.png  used on input line 262.
-(pdftex.def)             Requested size: 234.67259pt x 115.4292pt.
+[13 <./images/fl_vertical.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 263.
-See the caption package documentation for explanation.
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1244,21 +1256,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [14 <./images/fl_distribute.png>]
 Chapitre 4.
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 274.
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
 
 [15
 
 ]
-<./images/finances.png, id=204, 839.135pt x 466.74374pt>
+<./images/finances.png, id=211, 839.135pt x 466.74374pt>
 File: ./images/finances.png Graphic file (type png)
 <use ./images/finances.png>
-Package pdftex.def Info: ./images/finances.png  used on input line 279.
-(pdftex.def)             Requested size: 167.82402pt x 93.34709pt.
+Package pdftex.def Info: ./images/finances.png  used on input line 284.
+(pdftex.def)             Requested size: 251.74243pt x 140.0242pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 280.
+(caption)                particular \caption on input line 285.
 See the caption package documentation for explanation.
 
 
@@ -1268,85 +1281,103 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16 <./images/finances.png>]
+<./images/fl_medic.PNG, id=219, 578.76225pt x 398.6895pt>
+File: ./images/fl_medic.PNG Graphic file (type png)
+<use ./images/fl_medic.PNG>
+Package pdftex.def Info: ./images/fl_medic.PNG  used on input line 296.
+(pdftex.def)             Requested size: 289.38042pt x 199.34425pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 297.
+See the caption package documentation for explanation.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
+ Make it at least 15.71667pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 323--326
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 15.71667pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <./images/fl_medic.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
 []\OT1/cmr/m/n/12 J^^Ser^ome Az^^Se. \OT1/cmr/m/it/12 Ex-trac-top, et ges-tion 
 des connais-sances []$\OT1/cmtt/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--326
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
 \OT1/cmtt/m/n/12 / / books . google . fr / books ? hl = fr & lr = &id = dOEaEAA
 AQBAJ & oi = fnd & pg =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--326
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
 \OT1/cmtt/m/n/12 PA419 & dq = pseudonymisation + des + donn % C3 % A9es & ots =
  EBRSMlwkfU &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--326
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
 \OT1/cmtt/m/n/12 sig = Ss5Ik0PWRg _ lR8K7-[]MVDwXPf2jA & redir _ esc = y # v = 
 onepage & q =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+Underfull \hbox (badness 10000) in paragraph at lines 337--340
 []\OT1/cmr/m/n/12 Hausmane Is-sa-rane. \OT1/cmr/m/it/12 Ap-pren-ti-sage Su-per-
 vise []$\OT1/cmtt/m/n/12 URL : https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+Underfull \hbox (badness 10000) in paragraph at lines 337--340
 \OT1/cmtt/m/n/12 analyticsinsights . io / 5-[]apprentissage-[]supervise/$[] \OT
 1/cmr/m/n/12 Consult^^Se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--337
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
 []\OT1/cmr/m/n/12 Retengr. \OT1/cmr/m/it/12 Deep Lear-ning : d^^Sefinition, ap-
 pli-ca-tions, avan-tages
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--337
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
 \OT1/cmr/m/it/12 et in-conv^^Senients. []$\OT1/cmtt/m/n/12 https : / / www . re
 tengr . com / 2021 / 01 / 22 /
  []
 
 
-Overfull \hbox (19.80278pt too wide) in paragraph at lines 333--337
+Overfull \hbox (19.80278pt too wide) in paragraph at lines 342--346
 \OT1/cmtt/m/n/12 deep-[]learning-[]definitions-[]applications-[]avantages-[]inc
 onvenients/$[]
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 344--347
+Underfull \hbox (badness 1014) in paragraph at lines 353--356
 []\OT1/cmr/m/n/12 Afshine Amidi et Sher-vine Amidi. \OT1/cmr/m/it/12 Pense-b^et
 e d'ap-pren-tis-sage non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--347
+Underfull \hbox (badness 10000) in paragraph at lines 353--356
 \OT1/cmr/m/it/12 supervise. []$\OT1/cmtt/m/n/12 https : / / stanford . edu / []
 shervine / l / fr / teaching /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--347
+Underfull \hbox (badness 10000) in paragraph at lines 353--356
 \OT1/cmtt/m/n/12 cs-[]229 / pense-[]bete-[]apprentissage-[]non-[]supervise$[] \
 OT1/cmr/m/n/12 Consult^^Se le
  []
 
-[18
+[19
 
 ]
 
@@ -1355,65 +1386,65 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19]
+[20]
 Annexe A.
-<pdf/federate_learning_en.pdf, id=253, 614.295pt x 794.97pt>
+<pdf/federate_learning_en.pdf, id=266, 614.295pt x 794.97pt>
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf>
-Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 359.
+Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 368.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf>
-Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 359.
+Package pdftex.def Info: pdf/federate_learning_en.pdf  used on input line 368.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<pdf/federate_learning_en.pdf, id=256, page=1, 614.295pt x 794.97pt>
+<pdf/federate_learning_en.pdf, id=269, page=1, 614.295pt x 794.97pt>
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 359.
+e 368.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 359.
+e 368.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[20
+[21
 
 ]
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 359.
+e 368.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 359.
+e 368.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pdf/federate_learning_en.pdf Graphic file (type pdf)
 <use pdf/federate_learning_en.pdf, page 1>
 Package pdftex.def Info: pdf/federate_learning_en.pdf , page1 used on input lin
-e 359.
+e 368.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [21 <./pdf/federate_learning_en.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 362.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 362.
+ [22 <./pdf/federate_learning_en.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
  (./federate_learning.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 362.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 362.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
 Package rerunfilecheck Info: File `federate_learning.out' has not changed.
-(rerunfilecheck)             Checksum: 7246446D2FE91DA19917B19E9640595F;1072.
+(rerunfilecheck)             Checksum: D0A16E55775A3530A18856BE40B64EC3;1013.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 362.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
  ) 
 Here is how much of TeX's memory you used:
- 10719 strings out of 494276
- 156021 string characters out of 6162348
+ 10746 strings out of 494276
+ 156407 string characters out of 6162348
  259303 words of memory out of 5000000
- 13826 multiletter control sequences out of 15000+600000
+ 13839 multiletter control sequences out of 15000+600000
  13572 words of font info for 52 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  42i,18n,43p,1868b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1433,10 +1464,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr
 /texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on federate_learning.pdf (24 pages, 2301322 bytes).
+Output written on federate_learning.pdf (25 pages, 2454973 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

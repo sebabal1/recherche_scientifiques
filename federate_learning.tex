@@ -64,14 +64,14 @@
 \tableofcontents
 \thispagestyle{empty} % Ignore page number
 
+
+
+
+\chapter{Machine Learning}
 \fancyfoot[C]{Master en Science infomatique - Lecture et rédaction scientifique}
-%\fancyfoot[R]{\thepage}
+\fancyfoot[R]{\thepage}
 
-\chapter{Concepts}
-\section{Machine Learning}
-
-
-\thispagestyle{plain}
+%\thispagestyle{plain}
 \setcounter{page}{1} % Start page count
 
 
@@ -99,7 +99,21 @@ En prenant l'algorithme de l'arbre de classification et de régression, on peut 
 
 
 La deuxième famille,l'apprentissage non-surpervisé (en bleu dans la figure 1.1) consiste à apprendre par identification des ressemblances et des différences entre les données fournies. L'algorithme rassemble les données en groupe ce qui permet lors de l'intégration d'une nouvelle information de la classifier dans un des groupes existants très rapidement. Ce type d'exemple a souvent pour objectif de créer des arbres de décisions sur base de "clustering".
-L'un des plus connus est le partionnement k-means, c'est un algorithme qui met en place un centre de gravité, dont les coordonnées vont servir pour localiser cette zone. Pour mieux comprendre l'algorithme, la notation $c^{(i)}$ représente la partition de point i et $u_j$ le centre de la partition j.\\
+L'un des plus connus est le partionnement k-means, c'est un algorithme qui met en place un centre de gravité, dont les coordonnées vont servir pour localiser cette zone. Pour mieux comprendre l'algorithme, la notation $c^{(i)}$ représente la partition de point i et $u_j$ le centre de la partition j. L'algorithme k-means répète l'étape suivante jusqu'à sa convergence fig 1.3.\\
+
+\begin{center}
+	\includegraphics[scale=0.5]{algo_k_means}
+	\captionof{figure}{Algorithme k-means}
+	\label{fig1}
+\end{center}
+\pagebreak
+Dans la fig 1.4, l'algorithme trie les données pour arriver à une convergence des données.
+
+\begin{center}
+	\includegraphics[scale=0.4]{k_means}
+	\captionof{figure}{Shema k-means}
+	\label{fig1}
+\end{center}
 
 Pour finir, il existe une catégorie qui gère sa propre expérience. En effet, l'apprentissage par renforcement (en rouge dans la figure 1.1) consiste à générer ses propres expériences. On se rapproche de l'automobile autonome, la machine change ses états suivant les actions qu'elle entreprend de faire. Un système de récompense positive et négative est mis en place pour constituer une nouvelle expérience et rendre la machine attentive pour maximiser ses chances de réussite. Ce type d'approche est la plus générique, elle convient aussi bien pour optimiser des solutions existantes que pour classifier des données. En règle générale, cette approche est souvent utilisée pour des recherches exploratoires. L'inconvénient principal de cettre approche scientifique est son besoin de ressources. En effet, les combinatoires peuvent très vites être importantes et pas conséquence, l'exploration aura besoin de temps ou de ressources physiques pour les tester.\\
 
@@ -108,15 +122,13 @@ Pour conclure, le ML est une technologie qui vise à trouver des modèles, compr
 On peu constater que ce type de besoin se focalise sur une application spécifique cependant, le ML connait des limites au niveau des complexités combinatoire [x: ], or certaines applications nécessitent des applications plus complexes avec plus d'entrées, tels que le traitement des images. Pour palier aux limites du ML, le Deep Learning a vu son essort [x: lien vers essort DL]
 
 
-\section{Deep Learning}
+\chapter{Deep Learning}
 
 Le Deep Learning(DL) est représentatif d'un système neuronal comme notre système cérébral, il est conçus de plusieurs neuronnes qui intéragissent entre eux. Pour rendre performant tous ces neuronnes, il est nécessaire d'avoir une grande quantité de données, un Data Lake. Celui ci fournit au système plusieurs informations afin de lui constituer une "mémoire". Cette mémoire lui permet de reconnaitre des éléments bien particulier suivant l'entrainement qu'il aura suivit. Cet entrainement est supervisé par des développeurs qui vérifient que le DL ne sort pas de son modèles définis.
 Si il s'en éloigne, ils corrigent son algorithme mathématique pour le rendre plus performant et le remettre sur le droit chemin. Pour que le modèle mathématique deviennent performant, il faudra l'entrainer à reconnaitre une donnée en particulier. C'est le sujet de notre prochaine section.
 
 
-\pagebreak
-
-\subsection{Modèle d'entraînement}
+\section{Modèle d'entraînement}
 
 Pour entrainer le DL, il lui faut un algorithme mathématique et un grand flux de données afin d'affiner ses recherches et prendre de l'expérience. Dans notre situation, on décider de prendre la reconnaissance d'une image, en particulier celle d'un chat.
 On fournit à l'algorithme un flux d'images de plusieurs espèces d'animaux, on définit les paramètres qui permettent d'affirmer que l'image que l'on soumet soit bien un chat. Ainsi avec ces critères, l'algorithme devient plus précis car on le guide un peu sur l'objectif qu'il doit atteindre.
@@ -132,47 +144,68 @@ Voici un schéma pour l'exemple du fonctionnement du DL,[fig2.1], les boules ver
 Les avantages de cette méthode sont qu'elle permet de sortir une bonne qualité sur des résultats obtenus. Elle permet aussi d'avoir une meilleure exécution sur des tâches de routine tout en gardant de très bon résultat car traiter des données non structurées n'est pas chose aisée. Pourtant même avec des documents, des photos, des mails, elle arrive a sotcké des informations sous ces formats désordonnés. Cela montre bien la puissance du Deep Learning.\\
 
 Bien entendu, il y a aussi des désavantage,on peut constater que ce type de modèle peut devenir très vite énergivore. De plus, le DL se focalise principalement sur une application. Or, il peut être intéressant d'étudier plusieurs applications similaires afin d'identifier des modèles plus poussés. C'est dans ce contexte que nous allons introduire le Federated Learning.
+\pagebreak
 
 
-\section{Federated Learning}
+\chapter{Federated Learning}
 
 Avec la digitalisation des données et l'augmentation du nombre d'individus sur notre planète, on fait face à de nouveaux défis pour l'utilisation de toutes ces données présentes sur Internet. C'est pour cette raison que notre époque fait face à deux défis importants en terme d'avancer technologique: \\
 \begin{enumerate}
-\item Le respect de la vie privée. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgué en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisé sans l'accord de son propriétaire.
-\item L'union fait la force, or, le traitement en silo des données de chaque entreprise freine énormement l'évolution des apprentissages de machine learning. En effet, en partageant les données entre differents secteurs, les algorithmes pourraient s'enrichir dans d'autres contextes afin de prendre de meilleurs décisions en fonction du besoin de chaque application.
+\item Le respect de la vie privée. L'une des plus importantes est celle de la privatisation de ces données sur le web. Avec la protection des données (RGPD) promulgueé en 2018, les données privées font entièrement partie de l'utilisateur, ces données ne peuvent pas être utilisées sans l'accord de son propriétaire.
+\item L'union fait la force, or, le traitement en silo des données de chaque entreprise freine énormément l'évolution des apprentissages de machine learning. En effet, en partageant les données entre différents secteurs, les algorithmes pourraient s'enrichir dans d'autres contextes afin de prendre de meilleures décisions en fonction du besoin de chaque application.
 \end{enumerate}
-Comme dit Benjamin Merci, Responsable Digital Analytics : « Sans connaissance de son audience, et sans hypothèses préalables solides, la Big data ne sert à rien». Il met ainsi en avant l'importance de la collecte des données. La masse d'information nécéssaire pour obtenir des apprentissages de qualité demande beaucoup de rigeur et d'expérience dans le domaine ciblé.\\
+Lors de mes recherches, j'ai lu la citation de Benjamin Merci, Responsable Digital Analytics : \\
+\textit{«Sans connaissance de son audience, et sans hypothèses préalables solides, la Big data ne sert à rien».}\\
+Benjamin Merci veut mettre en avant au travers de sa citation l'importance de la collecte des données. La masse d'information nécéssaire pour obtenir des apprentissages de qualité demande beaucoup de rigueur et d'expérience dans le domaine ciblé.\\
+\pagebreak
 
-En effet, le Federated Learning peut se composer en deux familles bien disctinctes :
+Le Federated Learning peut se composer en deux familles bien distinctes :
 \begin{enumerate}
-\item La première est celle qui partage ses données sur un serveur distribué.
-\item La seconde est celle qui partage son modèle avec d'autre partissipants.
+\item La première est celle qui partage ses données sur un serveur centralisé.
+\item La seconde est celle qui partage son modèle avec d'autres participants.
 \end{enumerate}
 
-Pour commencer, la première méthode se rapproche des modèles précendents comme le ML et le DL. Elle a besoin d'un large éventail de données pour pouvoir améliorer son échantillonage et ressortir des données suivant un besoin spécifier au niveau du modèle. 
+\section{Apprentissage centralisé}
 
+Pour commencer, la première méthode se base sur des modèles précédents comme le ML et le DL. Cette approche a besoin d'un large éventail de données pour pouvoir améliorer son échantillonnage et ressortir des données suivant un besoin spécifique au niveau du modèle.\\
 
+Son fonctionnement se constitue dans notre cas de mise à disposition de plusieurs appareils (des robots présents dans l'article : "Data-Driven Federated Learning for Spatio-Temporal Predictions in Multi-Robot Systems") connectés sur un réseau à un serveur centrale.\\
 
+Dans cet exemple, les robots doivent partager leurs données collectées afin de les fusionner. Cette fusion des données permet d’apprendre avec une meilleure perception de leur environnement global. Ce type d’approche ne fonctionne que si les données ne sont pas sensibles. Au cas contraire, il est important de trouver une solution afin d'anonymiser ou pseudonomiser les données afin de les protéger.\\
 
+De nos jours, il existe des approches de pseudonomisation très abouties comme les méthodes de chiffrement. Au travers de l’artile [X]  "Extractop et gestion des connaissances, il est possible de constater l'utilité de la pseudonymisation en montrant la conservation d'informations sensibles à des fins scientifiques ou pour affiner des statistiques suivant un besoin. De plus, l’article met en avant que la méthode la plus courante pour la pseudonymisation est l'utilisation d'un chiffrement. 
+Cette méthode utilise un identifiant et un quasi-identifiant et les remplace par d'autres chiffres ce qui rend l'identité cachée tout en rendant possible de ré-identification des informations en ayant la bonne clé de déchiffrement. Le schéma 3.1 montre le fonctionnement du chiffrement d'une pseudonymisation.\\
 
+\begin{center}
+    \includegraphics[scale=0.7]{pseudo}
+    \captionof{figure}{Pseudonymisation}
+    \label{fig1}
+\end{center} 
 
-Son fonctionnement se constitue dans notre cas de mise à disposition de plusieurs appareils(smartphone) connectés sur un réseau à un serveur centrale.
+Ainsi, la solution de l’apprentissage centralisé permet d’utiliser les technologies de plus en plus matures que sont le ML et le DL. Cependant, il faut être extrêmement vigilant à la protection des données d'apprentissage. Pour palier à ce problème de pratage des données sources, nous allons présenter le concept de partage des modèles d’apprentissages.
+\pagebreak
+\section{Modèle centralisé}
 
+Dans cette section, nous allons détailler comment le FL peut améliorer la convergence des apprentissages sans forcément avoir besoin d'accéder aux données sources.
 
+C'est pour cettre raison que le modèle centralisé permet de  partager ces modèles tout en faisant attention de ne pas divulguer des informations sensibles avec une protection des données. Cette approche de partage de modèle de prise de décision, comme nous le montre l'article "Federated Learning, Synthesis Lectures on Artificial Intelligence and Machine Learning", des entreprises on décider de partager leur modèles à des fins de détection d'objets. Ils forment ainsi un ensemble de modèles puissants dans le but de répondre rapidement aux demandes des clients. Le travail des modèles est illustré à la fig 3.2.
 
+\begin{enumerate}
+\item Chaque participant va rechercher sur le serveur le modèle de détection d'objet.
+\item Chaque participant utilise le modèle sur leur donnée en interne.
+\item Chaque participant envoie ses paramètres sur le serveur via un protocole sécurisé.
+\item Le serveur utilise les paramètres du modèle de chaque participant et met à jour son propre modèle de détection d'objet.
+\end{enumerate}
 
-Le traitement distribué met en place plusieurs appareils connectés à différents endroits via un réseau de communication sous la surveillance d'un serveur centrale afin d'effectuer une partie de la même tâche pour l'accomplir. Le modèle distribué vise à améliorer l'étape de traitement comparer au FL qui lui se base sur un modèle collaboratif afin d'éviter des fuites de confidentialité.\\
+\begin{center}
+    \includegraphics[scale=0.4]{fl_model_partage}
+    \captionof{figure}{Modele partager}
+    \label{fig1}
+\end{center}
 
-Pour mieux comprendre son fonctionnement, le FL se déroule en plusieurs étapes, la formation fédérée est celle qui est la plus courante. Pour commencer, un appareil mobile se procure un modèle afin d'acquérir les données et les traiter en local. En second lieu, le modèle est subit à de multiple mises à jours régulières en local afin d'être amélioré, celles-ci contiennent des données locales qui appartiennent à différents appareils séparés. Ensuite, les appareils mobiles téléchargent des informations d'un champ de vecteurs présent dans un cloud. En troisième lieu, les modèles locaux effectuent une mise à jour moyenne au sein du cloud et est envoyé à un appareil défini comme le modèle mondial renouvelé. Pour finir, ces étapes précédentes se répètent afin d'arriver à un modèle avec une certaine performance ou qu'une date limite soit atteinte.
+\pagebreak
 
-Le FL est capable de traiter des données partionnées horizontalement suivant des echantillons mais aussi de façon verticale suivant les caractéristiques du modèle d'apprentissage.
-
-En quelques mots, c'est un apprentissage automatique distribué qui permet d'entraîner un modèle mathématique avec un large groupe de données décentralisées qui se trouvent sur des appareils distants.
-
-Par exemple, comme précise l'article "Big and Personal: data and models behind Netflix recommendations", le secteur du multimédia dispose de plusieurs données sur nos habitudes et nos préférences en terme de choix de visionnage. L'un des plus connu est Netflix, en effet cette société utilise nos données pour nous suggérer des choix parmis un large éventail de séries et de films. Ceux-ci se basent sur nos historiques, nos choix du moment, une autre de leur fonctionnalité est de partager les séries/films que nos amis aiment. Ainsi l'utilisateur pourra être diriger vers un visionnage qui pourra lui plaire. C'est l'un des exemples qui est présenté ici mais on peut imaginer plus loin cette utilisation. C'est pour cette raison que l'industrie a un enjeux capital dans tous ces ilots de données.\\
-
-L'esssort de l'industrie vient de l'utilisation du Federated Learning(FL) et c'est ainsi qu'elle a reussis à relever ces défis. L'utilisation d'îlots de données est la clé pour ces industries car le FL utilise un processus d'apprentissage automatique qui utilisent ces gros îlots. Cellui-ci utilise les concepts du ML et du DL pour pouvoir travailler avec ces grands échantillonnages de données. Des algorithmes de ML et de DL effectuent des calculs basé sur leur données de leur application. L'objectif du FL est de pouvoir agréger des informations de diversses applications, ou de différents acteurs afin de générer un modèle plus aboutie. Cette centralisation des données se fait généralement à l'aide d'un serveur centralisé comme le présente de schéma 1.3. Les données sont ainsi distribuées mais il reste la question de la privatisation des données et c'est là qu'intervient la pseudonymisation des données.
- 
+Une autre approche peut être nécessaire pour mieux comprendre son fonctionnement. Le FL se déroule en plusieurs étapes, la formation fédérée est celle qui est la plus courante comme nous le montre la fig 3.3. Pour commencer, un appareil mobile se procure un modèle afin d'acquérir les données et les traiter en local. En second lieu, le modèle est soumis à de multiples mises à jour régulières en local afin d'être amélioré, celles-ci contiennent des données locales qui appartiennent à différents appareils séparés. Ensuite, les appareils mobiles téléchargent des informations d'un champ de vecteurs présent dans un cloud. En troisième lieu, les modèles locaux effectuent une mise à jour moyenne au sein du cloud et est envoyé à un appareil défini comme le modèle mondial renouvelé. Pour finir, ces étapes précédentes se répètent afin d'arriver à un modèle avec une certaine performance ou qu'une date limite soit atteinte.
 
 \begin{center}
 	\includegraphics[scale=0.3]{mobile_schema_fl}
@@ -180,59 +213,13 @@ L'esssort de l'industrie vient de l'utilisation du Federated Learning(FL) et c'e
 	\label{fig1}
 \end{center}
 
-La pseudonymisation est un élement crutial pour le FL. L'article "Extractop et gestion des connaissances" met en avant l'utilité de la pseudonymisation en montrant la conservation d'informations sensibles à des fins scientifiques ou pour affiner des statistiques suivant un besoin. La méthode la plus courant pour la pseudonymisation est l'utilisation d'un chiffrement, cette méthode utilise un identifiant et un quasi-identifiant et les remplaces par d'autres chiffres ce qui rend l'identité cachée tout en rendant possible de ré-identification des informations en ayant la bonne clé de déchiffrement. Le schéma 1.4 montre le fonctionnement du chiffrement d'une pseudonymisation.\\
-
-\begin{center}
-	\includegraphics[scale=0.7]{pseudo}
-	\captionof{figure}{Pseudonymisation}
-	\label{fig1}
-\end{center}
-
-
-
-
-Des clients sont coordonnées avec un ou plusieurs serveurs pour faciliter une décentralisation d'un appentrissage automatique tel une architecture étoile.
-
-
-
-
-
-
-La deuxième famille est celle qui partage leur modèle pour augmenter la rapidité des algorithmes.\\ 
-
-Dans un second temps, celle qui partage ces modèles doit faire attention de ne pas divulger des informations sensibles avec un protection des données. Cette famille partage son modèle de prise de décision, ainsi comme nous montre l'article "Federated Learning, Synthesis Lectures on Artificial Intelligence and Machine Learning", des entreprises on décider de partager leur modèles à des fins de détection d'objets. Ils forment ainsi un ensemble de modèles puissent dans le but de répondre rapidement aux demandes des clients. Le travail des modèles est illustré à la fig 1.5.
-
-\begin{enumerate}
-\item Chaque participant va rechercher sur le serveur le modèle de détection d'objet.
-\item Chaque participant utilise le modèle sur leur donnée en iterne.
-\item Chaque participant envoie ses paramètres sur le serveur via un protocole sécuriser.
-\item Le serveur utilise les paramètres du modèle de chaque participants et met à jours son propre modèle de détection d'objet.
-\end{enumerate}
-
-\begin{center}
-	\includegraphics[scale=0.4]{fl_model_partage}
-	\captionof{figure}{Modele partager}
-	\label{fig1}
-\end{center}
-
-
-
-\pagebreak
-
-\chapter{Technologies existantes (Framework)}
-\subsection{TensorFlow Federated (TFF)}
-
-Les frameworks ne manquent pas pour manipuler des modèles mathématique et les implémenter pour du ML. Le framework TensorFlow Federated en est un qui est totalement openSource. Il permet aux développeurs de simuler des algorithmes d'apprentissage sur leur modèles et bien entendu tester de nouveau algorithmes. Le TFF est constitué d'un environnement d'exécution de simulation dans lequel on peut simulé nos algorithmes, celle ci est utilisée par une seule machine dédiée aux tests.
-
-\subsection{Federated AI Technology Enabler (FATE)}
-
-\chapter{Catégorisation}
+\section{Exploration des modèles}
 
 Le FL est caractérisé par trois grands groupes qui surviennet régulièrement, ceux ci sont le FL Horizontal, le FL vertical et le Federated Transfer Learning. Les données stockées sont placées dans différents noeuds, celles ci sont sous forme de matrice de caractéristiques. Les données sont composées de multiples instances, la partie horizontale est représentée comme un client, celle verticale se caractérise par les caractéristiques du client. Pour finir, on peut séparer le FL suivant le mode de partition des données.\\
 
 \subsection{Horizontal FL}
 
-Pour celui du FL Horizontal, des chevauchements peuvent apparaitrent entre les caractéristiques des données qui sont réparties sur différents noeuds, malgré le fait que les données ne sont pas semblables sur l'espace d'échantillonnage. Les données du point de vue de l'échantillonage sont différentes dans les scénarios des appareils connecté à Internet et les appareils intelligents. Mais ils sont particulièrment similaire dans un espace de fonctionnalité. Les mises à jours, comme nous l'avons vu précédement dans le point du FL, celle si est faite de façon horizontal. En effet, la dimension d'entité est la même pour chaque données. Dans les applications médicales, une forte hausse de travail est nécessaire pour collecté un grand nombre de données. Car il est difficile voir inconcevable pour chaque hôpital de créer une banque de données à partager. Via un réseau fédéral pour les hôpitaux construit par le FL permet d'améliorer le modèle(voir Fig 3.1).
+Pour celui du FL Horizontal, des chevauchements peuvent apparaitrent entre les caractéristiques des données qui sont réparties sur différents noeuds, malgré le fait que les données ne sont pas semblables sur l'espace d'échantillonnage. Les données du point de vue de l'échantillonage sont différentes dans les scénarios des appareils connecté à Internet et les appareils intelligents. Mais ils sont particulièrment similaire dans un espace de fonctionnalité. Les mises à jours, comme nous l'avons vu précédement dans le point du FL, celle si est faite de façon horizontal. En effet, la dimension d'entité est la même pour chaque données. Dans les applications médicales, une forte hausse de travail est nécessaire pour collecté un grand nombre de données. Car il est difficile voir inconcevable pour chaque hôpital de créer une banque de données à partager. Via un réseau fédéral pour les hôpitaux construit par le FL permet d'améliorer le modèle(voir Fig 3.4).
 
 \begin{center}
 	\includegraphics[scale=0.2]{fl_horizontal}
@@ -243,20 +230,20 @@ Pour celui du FL Horizontal, des chevauchements peuvent apparaitrent entre les c
 
 \subsection{Vertical FL}
 
-Lorsque les données sont partitionnées, le FL vertical est plus approprié, chaque parties contient des données homogènes. Ce qui implique que les chevauchement se font en partie sur l'ID de l'échantillon alors qu'elle est différente dans l'espace fonctionnel. Prenons le cas d'un établissement médical, ils souhaitent identifier des maladies telles que le diabète. Il peut être analysé suivant certaines dimensions comme l'âge, le poids et les antécédants médicaux le type de diabète qu'un patient peut avoir. Avec le FL, certaines applications possèdent des données comme le nombre de pas ou la composition des plats qu'un personne a. Ces données peuvent être utilisées pour faciliter cette reconnaissance. La figure 3.2 illustre très bien le FL vertical.
+Lorsque les données sont partitionnées, le FL vertical est plus approprié, chaque parties contient des données homogènes. Ce qui implique que les chevauchement se font en partie sur l'ID de l'échantillon alors qu'elle est différente dans l'espace fonctionnel. Prenons le cas d'un établissement médical, ils souhaitent identifier des maladies telles que le diabète. Il peut être analysé suivant certaines dimensions comme l'âge, le poids et les antécédants médicaux le type de diabète qu'un patient peut avoir. Avec le FL, certaines applications possèdent des données comme le nombre de pas ou la composition des plats qu'un personne a. Ces données peuvent être utilisées pour faciliter cette reconnaissance. La figure 3.5 illustre très bien le FL vertical.
 
 \begin{center}
 	\includegraphics[scale=0.2]{fl_vertical}
 	\captionof{figure}{Vertical FL}
 	\label{fig1}
 \end{center}
-\pagebreak
+
 
 \subsection{Federated Transfer Learning (FTL)}
 
 En comparaison des deux scénarios vu précédement, dans la plupart des cituations, sur les espaces d'échantillonage et d'espace d'entité les données n'y sont pas partagées. Ce qui implique un manque d'étiquette et une mauvaise qualité des données. Le principe du FTL est transféré les données d'un domaine vers un autre afin de réaliser de meilleurs résultats d'apprentissage. Ainsi, le FTL permet d'avoir une application étendue pour ce qui est de parties communes avec des intersections étroites. Pour un système de réseaux de neuronnes qui possèdent une technologie de cryptage homomorphique peut empêcher des fuites de confidentialités mais aussi garder une très bonne précision. 
 
-Dans le cadre d'une application avec le modèle FedHealth rassemble un packet de données qui appartiennent à des organisations différentes via FL et permet d'avoir un service personnalisé pour des soins de santé. Sur la Fig 3.3, des informations sur le diagnostic et le traitement de certaines maladies peuvent être partagées avec un autre hôpital dans le but de faciliter des diagnostics. Les problèmes qui surviennent à l'heure actuelle dans le milieu de l'industrialisation sont les îlots de données et la protection de la vie privée mais avec le FTL, celui ci permet d'avoir un service de sécurité fiable pour la protection des données et la confidentialité des utilisateurs tout en cassant les barreaux des îlots de données.
+Dans le cadre d'une application avec le modèle FedHealth rassemble un packet de données qui appartiennent à des organisations différentes via FL et permet d'avoir un service personnalisé pour des soins de santé. Sur la Fig 3.6, des informations sur le diagnostic et le traitement de certaines maladies peuvent être partagées avec un autre hôpital dans le but de faciliter des diagnostics. Les problèmes qui surviennent à l'heure actuelle dans le milieu de l'industrialisation sont les îlots de données et la protection de la vie privée mais avec le FTL, celui ci permet d'avoir un service de sécurité fiable pour la protection des données et la confidentialité des utilisateurs tout en cassant les barreaux des îlots de données.
 
 \begin{center}
 	\includegraphics[scale=0.2]{fl_distribute}
@@ -264,30 +251,52 @@ Dans le cadre d'une application avec le modèle FedHealth rassemble un packet de
 	\label{fig1}
 \end{center}
 
+En quelques mots, c'est un apprentissage automatique distribué qui permet d'entraîner un modèle mathématique avec un large groupe de données décentralisées qui se trouvent sur des appareils distants.\\
+
+\section{Agrégation des modèles}
+
+
+
+
+L'esssort de l'industrie vient de l'utilisation du Federated Learning(FL) et c'est ainsi qu'elle a reussis à relever ces défis. L'utilisation d'îlots de données est la clé pour ces industries car le FL utilise un processus d'apprentissage automatique qui utilisent ces gros îlots. Cellui-ci utilise les concepts du ML et du DL pour pouvoir travailler avec ces grands échantillonnages de données. Des algorithmes de ML et de DL effectuent des calculs basé sur leur données de leur application. L'objectif du FL est de pouvoir agréger des informations de diversses applications, ou de différents acteurs afin de générer un modèle plus aboutie. Cette centralisation des données se fait généralement à l'aide d'un serveur centralisé comme le présente de schéma 1.3. Les données sont ainsi distribuées mais il reste la question de la privatisation des données et c'est là qu'intervient la pseudonymisation des données.
+ 
+
+
+
+
+
+
+
 \chapter{Exemples d'utilisations}
 
-Dans notre société, le FL peut être un atout majeur pour plusieurs secteurs comme la finance, les soins de santé et l'éducation. Plusieurs applications qui peuvent faciliter les employers dans leur travail de tous les jours ou encore aider à la reconnaissance de certaines maladies et bien entendu aider nos têtes blondes pour améliorer et faciliter leur apprentissage pour qu'ils deviennent les hommes et les femmes de demain. Beaucoup de possibilités et pour se faire, un aperçu des ses applications dans lesquels il est possible d'utiliser le FL. 
+Dans notre société, le FL peut être un atout majeur pour plusieurs secteurs comme le multimédia, la finance et les soins de santé. Plusieurs applications qui peuvent faciliter les employers dans leur travail de tous les jours ou encore aider à la reconnaissance de certaines maladies et bien entendu aider nos têtes blondes pour améliorer et faciliter leur apprentissage pour qu'ils deviennent les hommes et les femmes de demain. Beaucoup de possibilités et pour se faire, un aperçu des ses applications dans lesquels il est possible d'utiliser le FL. 
 
 
-Les deux problèmes qui surgissent sont la protection de la vie privée et la sécurité des données
+\section{Le Multimédia}
 
-\subsection{La Finance}
+Le secteur du multimédia fait partie intégrante de notre quotidien et nous ne pretons plus attention à toutes ses données misent sur le Web. L'article "Big and Personal: data and models behind Netflix recommendations" montre que le secteur du multimédia dispose de plusieurs données sur nos habitudes et nos préférences en terme de choix de visionnage. L'un des plus connu est Netflix, en effet cette société utilise nos données pour nous suggérer des choix parmis un large éventail de séries et de films. Ceux-ci se basent sur nos historiques, nos choix du moment, une autre de leur fonctionnalité est de partager les séries/films que nos amis aiment. Ainsi l'utilisateur pourra être diriger vers un visionnage qui pourra lui plaire. C'est l'un des exemples qui est présenté ici mais on peut imaginer plus loin cette utilisation. C'est pour cette raison que l'industrie a un enjeux capital dans tous ces îlots de données.\\
+
+\section{La Finance}
 
 Le secteur de la finance est très important avec des réglementations gouvernementales pour la protection des investisseurs contre la fraude et la mauvaise gestion, conserver la confidentialité et la sécurités des données des utilisateurs. Dans le but de réduire les coûts et la charge de travail, des sociétés banquaires et financières exploitent les technologies modernes comme l'IA, les services de cloud et la technologie sur les téléphone mobile pour assurer un service financier de qualité tout en respectant les réglementations gouvernemantales. Un cas bien particulier est le financement intelligent à la consomation, son objectif vise à prendre parti des techniques de ML afin de proposer des services financiers propre à chacun. Les données utilisées dans un crédit à la consommation sont fait d'informations sur les consommateurs comme le pouvoir d'achat, la préférence d'achat et aussi les caractéristiques du produit. Ces données peuvent être utilisée par diversses entreprises ou sociétés. Ainsi dans la figure 4.1, les informations de qualifications et le pouvoir d'achat peuvent être déduit de son épargne bancaire et de sa préférence d'achat sur des produits ou services. On fait face dans notre exemple à deux problèmes. Le premier est la protection de la vie privé des consommateurs et le sécurité des données barrière entre les banques, les réseaux sociaux, les sites d'e-commerce. Le deuxième, ce sont le stockages des données par trois sections hétérogènes, ce qui empêche le ML classique de fonctionner sur ces données hétérogènes. C'est pour cette raison que le FL résout ces problèmes. Le FL peut scinder les données en trois parties sans exposer les données. On peut aussi utiliser l'apprentissage par transfert pour examiner les données hétérogène.
 
 \begin{center}
-	\includegraphics[scale=0.2]{finances}
+	\includegraphics[scale=0.3]{finances}
 	\captionof{figure}{FL dans une petite entreprise financière}
 	\label{fig1}
 \end{center}
 
-\subsection{La santé}
+\section{La santé}
 
 Dans le domaine médical l'intervention de l'IA peut aider à réduire les couts et les erreurs humaines dans les hôpitaux. En effet, un programme développé pour la diologie et la radiologie permet d'aider à poser un diagnostique sur des maladies cardiaques et identifier des cellules du cancer dans les premiers stades. Avec ces applications encourageantes de l'IA, beaucoup de fournisseurs de soins de santé tirent parti de l'IA pour augmenter l'éfficacité et améliorer les soins pour les patients. Cependant, l'utilisation de cette technologie n'en est qu'à ses débuts car il est déjà arrivé des erreurs suites à un mauvais diagnostique. Le plus gros problème dans ce domaine est la quantité d'informations suffisantes pour diagnostiquer précisément des symptômes sur un patient. Par exemple pour diagnostiquer un rhume, il faut plusieurs caractéristiques provenant de différentes sources, ainsi que les symptômes de la maladie.
 
 C'est pour cette raison, que les institutions médicales doivent partagé leur données en respectant les règles de la protection de la vie privée. Par après, on peut former un grand ensemble de données qui fonctionne bien mieux que des données provenant d'un seul établissement. Si on fusionne le FL et l'apprentissage par transfert, cela promet une bonne solution pour réaliser cet objectif. L'apprentissage fédéré permet de former un modèle partager sans exposition et échange de données propre à un patient. Ensuite, les techniques d'apprentissage par transfert aide à élargir l'échantillonnage et améliore les performances de partages des données. Pour terminer, l'apprentissage par transfert joue un rôle considérable pour le développement des systèmes médicaux. Si plusieurs institutions médicales établissent une bonne base de données grâce à l'apprentissage fédéré, l'avenir de l'IA dans le domaine de la santé peut avoir un net avantage sur les maladies. 
 
-
+\begin{center}
+	\includegraphics[scale=0.5]{fl_medic}
+	\captionof{figure}{FL dans une petite entreprise financière}
+	\label{fig1}
+\end{center}
 
 \begin{thebibliography}{9}
 
