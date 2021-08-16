@@ -1,16 +1,18 @@
-\BOOKMARK [0][-]{chapter.1}{Machine Learning}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Deep Learning}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Mod\350le d'entra\356nement}{chapter.2}% 3
-\BOOKMARK [0][-]{chapter.3}{Federated Learning}{}% 4
-\BOOKMARK [1][-]{section.3.1}{Apprentissage centralis\351}{chapter.3}% 5
-\BOOKMARK [1][-]{section.3.2}{Mod\350le centralis\351}{chapter.3}% 6
-\BOOKMARK [1][-]{section.3.3}{Exploration des mod\350les}{chapter.3}% 7
-\BOOKMARK [2][-]{subsection.3.3.1}{Horizontal FL}{section.3.3}% 8
-\BOOKMARK [2][-]{subsection.3.3.2}{Vertical FL}{section.3.3}% 9
-\BOOKMARK [2][-]{subsection.3.3.3}{Federated Transfer Learning \(FTL\)}{section.3.3}% 10
-\BOOKMARK [1][-]{section.3.4}{Agr\351gation des mod\350les}{chapter.3}% 11
-\BOOKMARK [0][-]{chapter.4}{Exemples d'utilisations}{}% 12
-\BOOKMARK [1][-]{section.4.1}{Le Multim\351dia}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.2}{La Finance}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.3}{La sant\351}{chapter.4}% 15
-\BOOKMARK [0][-]{appendix.A}{Annexe}{}% 16
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Machine Learning}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Deep Learning}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Mod\350le d'entrainement}{chapter.3}% 4
+\BOOKMARK [0][-]{chapter.4}{Federated Learning}{}% 5
+\BOOKMARK [1][-]{section.4.1}{Apprentissage centralis\351}{chapter.4}% 6
+\BOOKMARK [1][-]{section.4.2}{Mod\350le centralis\351}{chapter.4}% 7
+\BOOKMARK [1][-]{section.4.3}{Exploration des mod\350les}{chapter.4}% 8
+\BOOKMARK [2][-]{subsection.4.3.1}{Horizontal FL}{section.4.3}% 9
+\BOOKMARK [2][-]{subsection.4.3.2}{Vertical FL}{section.4.3}% 10
+\BOOKMARK [2][-]{subsection.4.3.3}{Federated Transfer Learning \(FTL\)}{section.4.3}% 11
+\BOOKMARK [1][-]{section.4.4}{Agr\351gation des mod\350les}{chapter.4}% 12
+\BOOKMARK [0][-]{chapter.5}{Exemples d'utilisations}{}% 13
+\BOOKMARK [1][-]{section.5.1}{Le Multim\351dia}{chapter.5}% 14
+\BOOKMARK [1][-]{section.5.2}{La Finance}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.3}{La sant\351}{chapter.5}% 16
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 17
+\BOOKMARK [0][-]{appendix.A}{Annexe}{}% 18

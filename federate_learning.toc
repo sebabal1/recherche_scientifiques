@@ -1,17 +1,19 @@
 \babel@toc {french}{}
-\contentsline {chapter}{\numberline {1}Machine Learning}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Deep Learning}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Mod\IeC {\`e}le d'entra\IeC {\^\i }nement}{5}{section.2.1}
-\contentsline {chapter}{\numberline {3}Federated Learning}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Apprentissage centralis\IeC {\'e}}{8}{section.3.1}
-\contentsline {section}{\numberline {3.2}Mod\IeC {\`e}le centralis\IeC {\'e}}{10}{section.3.2}
-\contentsline {section}{\numberline {3.3}Exploration des mod\IeC {\`e}les}{11}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Horizontal FL}{11}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Vertical FL}{12}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Federated Transfer Learning (FTL)}{13}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Agr\IeC {\'e}gation des mod\IeC {\`e}les}{14}{section.3.4}
-\contentsline {chapter}{\numberline {4}Exemples d'utilisations}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}Le Multim\IeC {\'e}dia}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}La Finance}{16}{section.4.2}
-\contentsline {section}{\numberline {4.3}La sant\IeC {\'e}}{17}{section.4.3}
-\contentsline {chapter}{\numberline {A}Annexe}{21}{appendix.A}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Machine Learning}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}Deep Learning}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Mod\IeC {\`e}le d'entrainement}{6}{section.3.1}
+\contentsline {chapter}{\numberline {4}Federated Learning}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Apprentissage centralis\IeC {\'e}}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Mod\IeC {\`e}le centralis\IeC {\'e}}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Exploration des mod\IeC {\`e}les}{12}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Horizontal FL}{12}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Vertical FL}{13}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Federated Transfer Learning (FTL)}{14}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Agr\IeC {\'e}gation des mod\IeC {\`e}les}{15}{section.4.4}
+\contentsline {chapter}{\numberline {5}Exemples d'utilisations}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Le Multim\IeC {\'e}dia}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}La Finance}{17}{section.5.2}
+\contentsline {section}{\numberline {5.3}La sant\IeC {\'e}}{18}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{20}{chapter.6}
+\contentsline {chapter}{\numberline {A}Annexe}{23}{appendix.A}
